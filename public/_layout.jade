@@ -12,33 +12,35 @@ html
     )
 
   body
-    nav(class="navbar navbar-expand-md fixed-top navbar-light bg-light")
-      button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent")
-        span(class="navbar-toggler-icon")
-      div(class="collapse navbar-collapse" id="navbarSupportedContent")
-        ul(class="navbar-nav mr-auto")
-          for data, page in public._data.pages
-            li(class="nav-item #{current.source === page ? 'active' : ''}")
-              a(
-                href="/#{current.path[0]}/#{page}"
-                class="nav-link"
-              ) #{data[current.path[0]].title}
-          li(class="nav-item dropdown")
-            a(
-              class="nav-link dropdown-toggle"
-              href="###"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-            ) #{public._data.locales[current.path[0]].language}
-            div(class="dropdown-menu")
-              for data, locale in public._data.locales
+    nav(class="navbar navbar-expand-md navbar-light bg-light")
+      div(class="container")
+        button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent")
+          span(class="navbar-toggler-icon")
+        div(class="collapse navbar-collapse" id="navbarSupportedContent")
+          ul(class="navbar-nav mr-auto")
+            for data, page in public._data.pages
+              li(class="nav-item #{current.source === page ? 'active' : ''}")
                 a(
-                  href="/#{locale}/#{current.source}"
-                  class="dropdown-item #{current.path[0] === locale ? 'active' : ''}"
-                ) #{public._data.locales[current.path[0]][locale].title}
+                  href="/#{current.path[0]}/#{page}"
+                  class="nav-link"
+                ) #{data[current.path[0]].title}
+            li(class="nav-item dropdown")
+              a(
+                class="nav-link dropdown-toggle"
+                href="###"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+              ) #{public._data.locales[current.path[0]].language}
+              div(class="dropdown-menu")
+                for data, locale in public._data.locales
+                  a(
+                    href="/#{locale}/#{current.source}"
+                    class="dropdown-item #{current.path[0] === locale ? 'active' : ''}"
+                  ) #{public._data.locales[current.path[0]][locale].title}
 
-    != yield
+    div(class="container")
+      != yield
 
     script(
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
