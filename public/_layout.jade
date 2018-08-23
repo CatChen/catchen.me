@@ -40,7 +40,7 @@ html
                     class="dropdown-item #{current.path[0] === locale ? 'active' : ''}"
                   ) #{public._data.locales[current.path[0]][locale].title}
 
-    div(class="container")
+    div(class="container mt-3")
       != yield
 
     script(
