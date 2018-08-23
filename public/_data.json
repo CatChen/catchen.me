@@ -36,6 +36,7 @@
   "locales": {
     "en": {
       "name": "Chen, Guangchen (aka Cat Chen)",
+      "language": "Language",
       "en": {
         "title": "English"
       },
@@ -45,6 +46,7 @@
     },
     "zh": {
       "name": "陈广琛",
+      "language": "语言",
       "en": {
         "title": "英文"
       },

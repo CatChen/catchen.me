@@ -2,26 +2,60 @@ doctype
 html
   head
     meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    meta(name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no")
     title #{public._data.pages[current.source][current.path[0]].title + ' - ' + public._data.locales[current.path[0]].name}
-    link(rel="stylesheet" href="/main.css")
+    link(
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    )
+
   body
-    nav
-      ul
-        for data, page in public._data.pages
-          li
-            a(
-              href="/#{current.path[0]}/#{page}.html"
-              class="#{current.source === page ? 'active' : ''}"
-            ) #{data[current.path[0]].title}
-      nav
-        ul
-          for data, locale in public._data.locales
-            li
+    nav(class="navbar navbar-expand-md fixed-top navbar-light bg-light")
+      button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent")
+        span(class="navbar-toggler-icon")
+      div(class="collapse navbar-collapse" id="navbarSupportedContent")
+        ul(class="navbar-nav mr-auto")
+          for data, page in public._data.pages
+            li(class="nav-item #{current.source === page ? 'active' : ''}")
               a(
-                href="/#{locale}/#{current.source}"
-                class="#{current.path[0] === locale ? 'active' : ''}"
-              ) #{public._data.locales[current.path[0]][locale].title}
+                href="/#{current.path[0]}/#{page}.html"
+                class="nav-link"
+              ) #{data[current.path[0]].title}
+          li(class="nav-item dropdown")
+            a(
+              class="nav-link dropdown-toggle"
+              href="###"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+            ) #{public._data.locales[current.path[0]].language}
+            div(class="dropdown-menu")
+              for data, locale in public._data.locales
+                a(
+                  href="/#{locale}/#{current.source}.html"
+                  class="dropdown-item #{current.path[0] === locale ? 'active' : ''}"
+                ) #{public._data.locales[current.path[0]][locale].title}
+
     != yield
+
+    script(
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    )
+    script(
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    )
+    script(
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    )
+
     script(async src="https://www.googletagmanager.com/gtag/js?id=UA-347601-6")
     script
       | window.dataLayer = window.dataLayer || [];
