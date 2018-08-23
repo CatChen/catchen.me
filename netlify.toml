@@ -13,6 +13,14 @@
   from = "/"
   to = "/en/"
   status = 302
+  force = false
+  conditions = {Language = ["en"]}
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  force = false
 
 [[headers]]
   for = "/*"
