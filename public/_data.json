@@ -1,22 +1,54 @@
 {
-  "index": {
-    "en": {
-      "title": "Home"
+  "pages": {
+    "index": {
+      "en": {
+        "title": "Home"
+      },
+      "zh": {
+        "title": "首页"
+      }
+    },
+    "resume": {
+      "en": {
+        "title": "Resume"
+      },
+      "zh": {
+        "title": "简历"
+      }
+    },
+    "projects": {
+      "en": {
+        "title": "Projects"
+      },
+      "zh": {
+        "title": "项目"
+      }
+    },
+    "contents": {
+      "en": {
+        "title": "Contents"
+      },
+      "zh": {
+        "title": "内容"
+      }
     }
   },
-  "resume": {
+  "locales": {
     "en": {
-      "title": "Resume"
-    }
-  },
-  "projects": {
-    "en": {
-      "title": "Projects"
-    }
-  },
-  "contents": {
-    "en": {
-      "title": "Contents"
+      "en": {
+        "title": "English"
+      },
+      "zh": {
+        "title": "Chinese"
+      }
+    },
+    "zh": {
+      "en": {
+        "title": "英文"
+      },
+      "zh": {
+        "title": "中文"
+      }
     }
   }
 }

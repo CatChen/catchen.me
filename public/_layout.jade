@@ -2,17 +2,25 @@ doctype
 html
   head
     meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
-    title #{title}
+    title #{public._data.pages[current.source][current.path[0]].title || title}
     link(rel="stylesheet" href="/main.css")
   body
     nav
       ul
-        for data, page in public._data
+        for data, page in public._data.pages
           li
             a(
-              href="#{page}.html"
+              href="/#{current.path[0]}/#{page}.html"
               class="#{current.source === page ? 'active' : ''}"
             ) #{data[current.path[0]].title}
+      nav
+        ul
+          for data, locale in public._data.locales
+            li
+              a(
+                href="/#{locale}/#{current.source}"
+                class="#{current.path[0] === locale ? 'active' : ''}"
+              ) #{public._data.locales[current.path[0]][locale].title}
     != yield
     script(async src="https://www.googletagmanager.com/gtag/js?id=UA-347601-6")
     script
