@@ -2,7 +2,7 @@ doctype
 html
   head
     meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
-    title #{public._data.pages[current.source][current.path[0]].title || title}
+    title #{public._data.pages[current.source][current.path[0]].title + ' - ' + public._data.locales[current.path[0]].name}
     link(rel="stylesheet" href="/main.css")
   body
     nav
