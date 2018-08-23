@@ -1,2 +1,27 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+doctype
+html
+  head
+    script
+      | var languages;
+      | if (Object.prototype.toString.call(navigator.languages) === '[object Array]') {
+      |   languages = navigator.languages;
+      | } else if (typeof navigator.language === 'string') {
+      |   languages = [navigator.language];
+      | }
+      | var pathname = '/en/';
+      | for (var i = 0; i < languages.length; i++) {
+      |   var matches = languages[i].match(/^(zh|en)/);
+      |   if (matches) {
+      |     pathname = '/' + matches[1] + '/';
+      |     break;
+      |   }
+      | }
+      | window.location.pathname = pathname;
+  body
+    noscript
+      ul
+        for data, locale in public._data.locales
+          li
+            a(
+              href="/#{locale}/"
+            ) #{public._data.locales[locale][locale].title}
