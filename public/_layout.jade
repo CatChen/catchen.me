@@ -20,7 +20,7 @@ html
           for data, page in public._data.pages
             li(class="nav-item #{current.source === page ? 'active' : ''}")
               a(
-                href="/#{current.path[0]}/#{page}.html"
+                href="/#{current.path[0]}/#{page}"
                 class="nav-link"
               ) #{data[current.path[0]].title}
           li(class="nav-item dropdown")
@@ -34,7 +34,7 @@ html
             div(class="dropdown-menu")
               for data, locale in public._data.locales
                 a(
-                  href="/#{locale}/#{current.source}.html"
+                  href="/#{locale}/#{current.source}"
                   class="dropdown-item #{current.path[0] === locale ? 'active' : ''}"
                 ) #{public._data.locales[current.path[0]][locale].title}
 

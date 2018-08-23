@@ -54,5 +54,8 @@
         "title": "中文"
       }
     }
+  },
+  "index": {
+    "layout": false
   }
 }
