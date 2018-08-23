@@ -57,5 +57,8 @@
   },
   "index": {
     "layout": false
+  },
+  "404": {
+    "layout": false
   }
 }
