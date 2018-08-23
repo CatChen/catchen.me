@@ -22,6 +22,44 @@
   status = 302
   force = false
 
+# v1 to v2 page mappings
+[[redirects]]
+  from = "/home.en.html"
+  to = "/en/"
+[[redirects]]
+  from = "/cv.en.html"
+  to = "/en/resume"
+[[redirects]]
+  from = "/portfolio.en.html"
+  to = "/en/projects"
+[[redirects]]
+  from = "/more.en.html"
+  to = "/en/posts"
+[[redirects]]
+  from = "/home.zh-CN.html"
+  to = "/zh/"
+[[redirects]]
+  from = "/cv.zh-CN.html"
+  to = "/zh/resume"
+[[redirects]]
+  from = "/portfolio.zh-CN.html"
+  to = "/zh/projects"
+[[redirects]]
+  from = "/more.zh-CN.html"
+  to = "/zh/posts"
+[[redirects]]
+  from = "/home.zh-HK.html"
+  to = "/zh/"
+[[redirects]]
+  from = "/cv.zh-HK.html"
+  to = "/zh/resume"
+[[redirects]]
+  from = "/portfolio.zh-HK.html"
+  to = "/zh/projects"
+[[redirects]]
+  from = "/more.zh-HK.html"
+  to = "/zh/posts"
+
 [[headers]]
   for = "/*"
   [headers.values]
