@@ -1,0 +1,22 @@
+{
+  "index": {
+    "en": {
+      "title": "Home"
+    }
+  },
+  "resume": {
+    "en": {
+      "title": "Resume"
+    }
+  },
+  "projects": {
+    "en": {
+      "title": "Projects"
+    }
+  },
+  "contents": {
+    "en": {
+      "title": "Contents"
+    }
+  }
+}

@@ -2,9 +2,17 @@ doctype
 html
   head
     meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
-    title #{ title }
+    title #{title}
     link(rel="stylesheet" href="/main.css")
   body
+    nav
+      ul
+        for data, page in public._data
+          li
+            a(
+              href="#{page}.html"
+              class="#{current.source === page ? 'active' : ''}"
+            ) #{data[current.path[0]].title}
     != yield
     script(async src="https://www.googletagmanager.com/gtag/js?id=UA-347601-6")
     script
