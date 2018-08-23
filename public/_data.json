@@ -24,12 +24,12 @@
         "title": "项目"
       }
     },
-    "contents": {
+    "posts": {
       "en": {
-        "title": "Contents"
+        "title": "Posts"
       },
       "zh": {
-        "title": "内容"
+        "title": "文章"
       }
     }
   },
