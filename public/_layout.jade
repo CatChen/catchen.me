@@ -1,7 +1,14 @@
 doctype
 html
   head
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
     title #{ title }
     link(rel="stylesheet" href="/main.css")
   body
     != yield
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-347601-6")
+    script
+      | window.dataLayer = window.dataLayer || [];
+      | function gtag(){dataLayer.push(arguments);}
+      | gtag('js', new Date());
+      | gtag('config', 'UA-347601-6');
