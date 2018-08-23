@@ -13,3 +13,8 @@
   from = "/"
   to = "/en/"
   status = 302
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
