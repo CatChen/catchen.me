@@ -1,0 +1,22 @@
+doctype xml
+
+mixin tree(current, path)
+  for value, key in current
+    if key === '_contents'
+      for file in value
+        if /\.html$/.test(file) && !/^\d{3}\.html$/.test(file)
+          url
+            loc
+              | http://catchen.me#{path}#{file.replace(/(index)?\.html$/, '')}
+            changefreq
+              | hourly
+            priority
+              if path === '/' && file === 'index.html'
+                | 1.0
+              else
+                | #{public._data.pages[file.replace(/\.html$/, '')].priority}
+    else if !/^[._]/.test(key)
+      mixin tree(value, path + key + '/')
+
+urlset(xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+  mixin tree(public, '/')

@@ -19,7 +19,7 @@ html
     )
     link(rel="icon" href="/favicon.ico")
     for data, locale in public._data.locales
-      if (locale !== current.path[0])
+      if locale !== current.path[0]
         link(rel="alternate" hreflang="#{locale}" href="/#{locale}/#{current.source}")
 
   body
