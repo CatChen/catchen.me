@@ -1,0 +1,72 @@
+mixin dateToLocalString(date)
+  if (!date)
+    | #{present}
+  else
+    if (current.path[0] === 'zh')
+      if ('month' in date)
+        | #{date.year} 年 #{date.month} 月
+      else
+        | #{date.year} 年
+    else if (current.path[0] === 'en')
+      if ('month' in date)
+        | #{['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][date.month - 1]} #{date.year}
+      else
+        | #{date.year}
+    else
+      if ('month' in date)
+        | #{date.year}.#{date.month.padStart(2, '0')}
+      else
+        | #{date.year}
+
+mixin dateRangeToLocalString(dateRange)
+  if (dateRange.from)
+    mixin dateToLocalString(dateRange.from)
+    | #{' - '}
+    mixin dateToLocalString(dateRange.to)
+  else if (dateRange.years)
+    if (current.path[0] === 'zh')
+      | #{dateRange.years.join('、')} 年
+    else if (current.path[0] === 'en')
+      | #{dateRange.years.join(', ')}
+    else
+      | #{dateRange.years.join(', ')}
+
+h2
+  | #{workExperience.title}
+div(class="row")
+  for experience, index in workExperience.experiences
+    div(class="col-md-4")
+      h3
+        mixin dateRangeToLocalString(public._data.pages.resume.workExperience.experiences[index])
+    div(class="col-md-8")
+      span(class="font-weight-bold") #{experience.company}
+      div(class="ml-4")
+        span(class="font-weight-bold") #{experience.title}
+
+h2
+  | #{socialActivities.title}
+div(class="row")
+  for activity, index in socialActivities.activities
+    div(class="col-md-4")
+      h3
+        mixin dateRangeToLocalString(public._data.pages.resume.socialActivities.activities[index])
+    div(class="col-md-8")
+      span(class="font-weight-bold") #{activity.title}
+      ul
+        for text in activity.texts
+          li
+            | #{text}
+
+h2
+  | #{educationBackground.title}
+div(class="row")
+  for education, index in educationBackground.educations
+    div(class="col-md-4")
+      h3
+        mixin dateRangeToLocalString(public._data.pages.resume.educationBackground.educations[index])
+    div(class="col-md-8")
+      span(class="font-weight-bold") #{education.school}
+      span(class="font-italic ml-2") #{education.city}
+      for text in education.texts
+        div(class="ml-4")
+          | #{text}

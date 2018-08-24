@@ -22,8 +22,12 @@ html
       if locale !== current.path[0]
         link(rel="alternate" hreflang="#{locale}" href="/#{locale}/#{current.source}")
     style
-      | h2 { font-size: 1.5em }
-      | h3 { font-size: 1em }
+      | h2 { font-size: 2em }
+      | h3 { font-size: 1.5em }
+      | @media (min-width: 768px) {
+      |   h2 { font-size: 1.5em }
+      |   h3 { font-size: 1em }
+      | }
 
   body
     nav(class="navbar navbar-expand-md navbar-light bg-light")

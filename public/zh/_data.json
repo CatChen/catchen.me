@@ -16,7 +16,76 @@
     }
   },
   "resume": {
-    "title": "简历"
+    "title": "简历",
+    "present": "Present",
+    "workExperience": {
+      "title": "工作经验",
+      "experiences": [
+        {
+          "company": "Facebook",
+          "title": "前端工程师"
+        },
+        {
+          "company": "豌豆实验室",
+          "title": "前端架构师"
+        },
+        {
+          "company": "Yahoo!",
+          "title": "软件工程师"
+        },
+        {
+          "company": "百度",
+          "title": "高级软件研发工程师"
+        }
+      ]
+    },
+    "socialActivities": {
+      "title": "社会活动",
+      "activities": [
+        {
+          "title": "John Bryce Training 培训师",
+          "texts": [
+            "为 Adobe 提供了 3 轮 HTML5 及 JavaScript 培训"
+          ]
+        },
+        {
+          "title": "Tech•Ed 微软技术大会讲师",
+          "texts": [
+            "讲述百度 Silverlight RIA 架构",
+            "讲述 Microsoft AJAX Library",
+            "讲述 IE9、HTML5 及 CSS3",
+            "讲述 ASP.NET MVC"
+          ]
+        },
+        {
+          "title": "人民邮电出版社（图灵文化发展有限公司）翻译",
+          "texts": [
+            "翻译《Prototype and Scriptaculous in Action》，约567千汉字",
+            "翻译《Adobe AIR in Action》"
+          ]
+        }
+      ]
+    },
+    "educationBackground": {
+      "title": "教育经历",
+      "educations": [
+        {
+          "school": "中山大学",
+          "city": "中国广州",
+          "texts": [
+            "计算机科学系，网络工程专业",
+            "2004 年被免试录取"
+          ]
+        },
+        {
+          "school": "华南师范大学附属中学",
+          "city": "中国广州",
+          "texts": [
+            "同时亦为广东奥林匹克学校学生"
+          ]
+        }
+      ]
+    }
   },
   "projects": {
     "title": "项目"

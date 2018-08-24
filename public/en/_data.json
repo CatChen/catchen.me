@@ -16,7 +16,76 @@
     }
   },
   "resume": {
-    "title": "Resume"
+    "title": "Resume",
+    "present": "Present",
+    "workExperience": {
+      "title": "Work Experiences",
+      "experiences": [
+        {
+          "company": "Facebook",
+          "title": "Front End Engineer"
+        },
+        {
+          "company": "Wandou Labs",
+          "title": "Front-End Architect"
+        },
+        {
+          "company": "Yahoo!",
+          "title": "Software Engineer"
+        },
+        {
+          "company": "Baidu",
+          "title": "Senior Software Engineer"
+        }
+      ]
+    },
+    "socialActivities": {
+      "title": "Social Activities and Experiences",
+      "activities": [
+        {
+          "title": "John Bryce Training Trainer",
+          "texts": [
+            "Delivered 3 rounds of HTML5 and JavaScript training sessions to Adobe Beijing office"
+          ]
+        },
+        {
+          "title": "Microsoft Tech·Ed China Speaker",
+          "texts": [
+            "Talked about Baidu Silverlight RIA Architecture",
+            "Talked about Microsoft AJAX Library",
+            "Talked about IE9 with HTML5 and CSS3",
+            "Talked about ASP.NET MVC"
+          ]
+        },
+        {
+          "title": "Posts and Telecommunication Press Translator",
+          "texts": [
+            "Translated Prototype and Scriptaculous in Action into Chinese",
+            "Translated Adobe AIR in Action into Chinese"
+          ]
+        }
+      ]
+    },
+    "educationBackground": {
+      "title": "Education Background",
+      "educations": [
+        {
+          "school": "Sun Yat-Sen University (SYSU)",
+          "city": "Guangzhou, China",
+          "texts": [
+            "Major in Network Engineering, Computer Science Department",
+            "Was recommended for admission in 2004"
+          ]
+        },
+        {
+          "school": "the Affiliated High School of South China Normal University",
+          "city": "Guangzhou, China",
+          "texts": [
+            "Also a student of the Guangdong Olympic High School"
+          ]
+        }
+      ]
+    }
   },
   "projects": {
     "title": "Projects"
