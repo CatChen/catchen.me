@@ -151,9 +151,11 @@
     "priority": 0.8
   },
   "projects": {
+    "title": "Projects",
     "priority": 0.5
   },
   "posts": {
+    "title": "Posts",
     "priority": 0.5
   },
 
