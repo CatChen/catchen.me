@@ -1,39 +1,15 @@
 {
   "pages": {
     "index": {
-      "en": {
-        "title": "Home"
-      },
-      "zh": {
-        "title": "首页"
-      },
       "priority": 0.6
     },
     "resume": {
-      "en": {
-        "title": "Resume"
-      },
-      "zh": {
-        "title": "简历"
-      },
       "priority": 0.8
     },
     "projects": {
-      "en": {
-        "title": "Projects"
-      },
-      "zh": {
-        "title": "项目"
-      },
       "priority": 0.5
     },
     "posts": {
-      "en": {
-        "title": "Posts"
-      },
-      "zh": {
-        "title": "文章"
-      },
       "priority": 0.5
     }
   },

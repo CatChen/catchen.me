@@ -1,0 +1,14 @@
+{
+  "index": {
+    "title": "Home"
+  },
+  "resume": {
+    "title": "Resume"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "posts": {
+    "title": "Posts"
+  }
+}

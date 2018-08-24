@@ -10,7 +10,7 @@ html
     meta(property="og:image" content="https://catchen.me/images/profile_picture_360_360_1x.png")
     meta(property="fb:profile_id" content="504867629")
     meta(property="fb:pages" content="319695031499949")
-    title #{public._data.pages[current.source][current.path[0]].title + ' - ' + public._data.locales[current.path[0]].name}
+    title #{title + ' - ' + public._data.locales[current.path[0]].name}
     link(
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -21,6 +21,9 @@ html
     for data, locale in public._data.locales
       if locale !== current.path[0]
         link(rel="alternate" hreflang="#{locale}" href="/#{locale}/#{current.source}")
+    style
+      | h2 { font-size: 1.5em }
+      | h3 { font-size: 1em }
 
   body
     nav(class="navbar navbar-expand-md navbar-light bg-light")
@@ -34,7 +37,7 @@ html
                 a(
                   href="/#{current.path[0]}/#{page}"
                   class="nav-link"
-                ) #{data[current.path[0]].title}
+                ) #{public[current.path[0]]._data[page].title}
             li(class="nav-item dropdown")
               a(
                 class="nav-link dropdown-toggle"

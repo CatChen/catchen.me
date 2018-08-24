@@ -1,0 +1,14 @@
+{
+  "index": {
+    "title": "首页"
+  },
+  "resume": {
+    "title": "简历"
+  },
+  "projects": {
+    "title": "项目"
+  },
+  "posts": {
+    "title": "文章"
+  }
+}
