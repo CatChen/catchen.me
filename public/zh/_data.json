@@ -1,6 +1,19 @@
 {
   "index": {
-    "title": "首页"
+    "title": "首页",
+    "introduction": {
+      "title": "个人简介",
+      "text": "陈广琛（网名 Cat Chen），前端工程师，现就职于 Facebook。"
+    },
+    "contacts": {
+      "title": "联系方式",
+      "mobile": "电话",
+      "mobileTextOnly": "电话（仅短信）",
+      "email": "电子邮箱"
+    },
+    "links": {
+      "title": "链接"
+    }
   },
   "resume": {
     "title": "简历"

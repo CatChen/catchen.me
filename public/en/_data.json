@@ -1,6 +1,19 @@
 {
   "index": {
-    "title": "Home"
+    "title": "Home",
+    "introduction": {
+      "title": "Introduction",
+      "text": "I am Guangchen Chen (aka Cat Chen), currently working at Facebook as a Front End Engineer."
+    },
+    "contacts": {
+      "title": "Contacts",
+      "mobile": "Mobile",
+      "mobileTextOnly": "Mobile (text only)",
+      "email": "Email"
+    },
+    "links": {
+      "title": "Links"
+    }
   },
   "resume": {
     "title": "Resume"
