@@ -11,6 +11,9 @@ html
       crossorigin="anonymous"
     )
     link(rel="icon" href="/favicon.ico")
+    for data, locale in public._data.locales
+      if (locale !== current.path[0])
+        link(rel="alternate" hreflang="#{locale}" href="/#{locale}/#{current.source}")
 
   body
     nav(class="navbar navbar-expand-md navbar-light bg-light")
