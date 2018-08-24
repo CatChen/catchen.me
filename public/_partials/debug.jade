@@ -1,4 +1,6 @@
 script
-  | console.log(!{JSON.stringify(public)});
-script
-  | console.log(!{JSON.stringify(current)});
+  if (data)
+    | console.log(!{JSON.stringify(data)});
+  else
+    | console.log(!{JSON.stringify(public)});
+    | console.log(!{JSON.stringify(current)});
