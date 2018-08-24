@@ -1,6 +1,7 @@
 script
-  if (data)
-    | console.log(!{JSON.stringify(data)});
-  else
-    | console.log(!{JSON.stringify(public)});
-    | console.log(!{JSON.stringify(current)});
+  if environment !== 'production'
+    if data
+      | console.log(!{JSON.stringify(data)});
+    else
+      | console.log(!{JSON.stringify(public)});
+      | console.log(!{JSON.stringify(current)});
