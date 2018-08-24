@@ -14,7 +14,7 @@ mixin tree(current, path)
               if path === '/' && file === 'index.html'
                 | 1.0
               else
-                | #{public._data.pages[file.replace(/\.html$/, '')].priority}
+                | #{public._data[file.replace(/\.html$/, '')].priority}
     else if !/^[._]/.test(key)
       mixin tree(value, path + key + '/')
 

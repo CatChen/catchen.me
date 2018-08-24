@@ -36,7 +36,7 @@ html
           span(class="navbar-toggler-icon")
         div(class="collapse navbar-collapse" id="navbarSupportedContent")
           ul(class="navbar-nav mr-auto")
-            for data, page in public._data.pages
+            for page in public._data.pages
               li(class="nav-item #{current.source === page ? 'active' : ''}")
                 a(
                   href="/#{current.path[0]}/#{page}"

@@ -1,108 +1,113 @@
 {
-  "pages": {
-    "index": {
-      "priority": 0.6
-    },
-    "resume": {
-      "workExperience": {
-        "experiences": [
-          {
-            "from": {
-              "year": 2012,
-              "month": 10
-            }
-          },
-          {
-            "from": {
-              "year": 2011,
-              "month": 11
-            },
-            "to": {
-              "year": 2012,
-              "month": 9
-            }
-          },
-          {
-            "from": {
-              "year": 2011,
-              "month": 5
-            },
-            "to": {
-              "year": 2011,
-              "month": 11
-            }
-          },
-          {
-            "from": {
-              "year": 2007,
-              "month": 11
-            },
-            "to": {
-              "year": 2011,
-              "month": 4
-            }
-          }
-        ]
-      },
-      "socialActivities": {
-        "activities": [
-          {
-            "from": {
-              "year": 2011,
-              "month": 11
-            },
-            "to": {
-              "year": 2012,
-              "month": 4
-            }
-          },
-          {
-            "years": [
-              2009,
-              2010
-            ]
-          },
-          {
-            "from": {
-              "year": 2007,
-              "month": 8
-            },
-            "to": {
-              "year": 2008,
-              "month": 1
-            }
-          }
-        ]
-      },
-      "educationBackground": {
-        "educations": [
-          {
-            "from": {
-              "year": 2004
-            },
-            "to": {
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "year": 1998
-            },
-            "to": {
-              "year": 2004
-            }
-          }
-        ]
-      },
-      "priority": 0.8
-    },
-    "projects": {
-      "priority": 0.5
-    },
-    "posts": {
-      "priority": 0.5
-    }
+  "index": {
+    "priority": 0.6
   },
+  "resume": {
+    "workExperience": {
+      "experiences": [
+        {
+          "from": {
+            "year": 2012,
+            "month": 10
+          }
+        },
+        {
+          "from": {
+            "year": 2011,
+            "month": 11
+          },
+          "to": {
+            "year": 2012,
+            "month": 9
+          }
+        },
+        {
+          "from": {
+            "year": 2011,
+            "month": 5
+          },
+          "to": {
+            "year": 2011,
+            "month": 11
+          }
+        },
+        {
+          "from": {
+            "year": 2007,
+            "month": 11
+          },
+          "to": {
+            "year": 2011,
+            "month": 4
+          }
+        }
+      ]
+    },
+    "socialActivities": {
+      "activities": [
+        {
+          "from": {
+            "year": 2011,
+            "month": 11
+          },
+          "to": {
+            "year": 2012,
+            "month": 4
+          }
+        },
+        {
+          "years": [
+            2009,
+            2010
+          ]
+        },
+        {
+          "from": {
+            "year": 2007,
+            "month": 8
+          },
+          "to": {
+            "year": 2008,
+            "month": 1
+          }
+        }
+      ]
+    },
+    "educationBackground": {
+      "educations": [
+        {
+          "from": {
+            "year": 2004
+          },
+          "to": {
+            "year": 2008
+          }
+        },
+        {
+          "from": {
+            "year": 1998
+          },
+          "to": {
+            "year": 2004
+          }
+        }
+      ]
+    },
+    "priority": 0.8
+  },
+  "projects": {
+    "priority": 0.5
+  },
+  "posts": {
+    "priority": 0.5
+  },
+
+  "pages": [
+    "index",
+    "resume",
+    "projects",
+    "posts"
+  ],
   "locales": {
     "en": {
       "name": "Chen, Guangchen (aka Cat Chen)",

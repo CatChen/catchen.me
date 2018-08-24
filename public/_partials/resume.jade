@@ -34,10 +34,10 @@ mixin dateRangeToLocalString(dateRange)
 h2
   | #{workExperience.title}
 div(class="row")
-  for experience, index in workExperience.experiences
+  for experience in workExperience.experiences
     div(class="col-md-4")
       h3
-        mixin dateRangeToLocalString(public._data.pages.resume.workExperience.experiences[index])
+        mixin dateRangeToLocalString(experience)
     div(class="col-md-8")
       span(class="font-weight-bold") #{experience.company}
       div(class="ml-4")
@@ -46,10 +46,10 @@ div(class="row")
 h2
   | #{socialActivities.title}
 div(class="row")
-  for activity, index in socialActivities.activities
+  for activity in socialActivities.activities
     div(class="col-md-4")
       h3
-        mixin dateRangeToLocalString(public._data.pages.resume.socialActivities.activities[index])
+        mixin dateRangeToLocalString(activity)
     div(class="col-md-8")
       span(class="font-weight-bold") #{activity.title}
       ul
@@ -60,10 +60,10 @@ div(class="row")
 h2
   | #{educationBackground.title}
 div(class="row")
-  for education, index in educationBackground.educations
+  for education in educationBackground.educations
     div(class="col-md-4")
       h3
-        mixin dateRangeToLocalString(public._data.pages.resume.educationBackground.educations[index])
+        mixin dateRangeToLocalString(education)
     div(class="col-md-8")
       span(class="font-weight-bold") #{education.school}
       span(class="font-italic ml-2") #{education.city}

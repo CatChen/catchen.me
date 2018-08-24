@@ -1,1 +1,37 @@
-!= partial(current.source, public[current.path[0]]._data[current.source])
+- function deepCopy(destination, source) {
+-   if (!destination) {
+-     if (typeof source === 'object') {
+-       if (Array.isArray(source)) {
+-         destination = [];
+-       } else {
+-         destination = {};
+-       }
+-     } else {
+-       return source;
+-     }
+-   }
+-   if (typeof source === 'object') {
+-     if (Array.isArray(source)) {
+-       for (var i = 0; i < source.length; i++) {
+-         if (source[i] !== undefined) {
+-           destination[i] = deepCopy(destination[i], source[i]);
+-         }
+-       }
+-     } else {
+-       for (var key in source) {
+-         if (Object.prototype.hasOwnProperty.call(source, key)) {
+-           destination[key] = deepCopy(destination[key], source[key]);
+-         }
+-       }
+-     }
+-   }
+-   return destination;
+- }
+
+- var baseData = public._data[current.source];
+- var localizedData = public[current.path[0]]._data[current.source];
+- var data = {};
+- deepCopy(data, baseData);
+- deepCopy(data, localizedData);
+
+!= partial(current.source, data)
