@@ -18,13 +18,18 @@
     "layout": false
   },
   "resume": {
+    "title": "Resume",
+    "present": "Present",
     "workExperience": {
+      "title": "Work Experiences",
       "experiences": [
         {
           "from": {
             "year": 2012,
             "month": 10
-          }
+          },
+          "company": "Facebook",
+          "title": "Front End Engineer"
         },
         {
           "from": {
@@ -34,7 +39,9 @@
           "to": {
             "year": 2012,
             "month": 9
-          }
+          },
+          "company": "Wandou Labs",
+          "title": "Front-End Architect"
         },
         {
           "from": {
@@ -44,7 +51,9 @@
           "to": {
             "year": 2011,
             "month": 11
-          }
+          },
+          "company": "Yahoo!",
+          "title": "Software Engineer"
         },
         {
           "from": {
@@ -54,11 +63,14 @@
           "to": {
             "year": 2011,
             "month": 4
-          }
+          },
+          "company": "Baidu",
+          "title": "Senior Software Engineer"
         }
       ]
     },
     "socialActivities": {
+      "title": "Social Activities and Experiences",
       "activities": [
         {
           "from": {
@@ -68,12 +80,23 @@
           "to": {
             "year": 2012,
             "month": 4
-          }
+          },
+          "title": "John Bryce Training Trainer",
+          "texts": [
+            "Delivered 3 rounds of HTML5 and JavaScript training sessions to Adobe Beijing office"
+          ]
         },
         {
           "years": [
             2009,
             2010
+          ],
+          "title": "Microsoft Tech·Ed China Speaker",
+          "texts": [
+            "Talked about Baidu Silverlight RIA Architecture",
+            "Talked about Microsoft AJAX Library",
+            "Talked about IE9 with HTML5 and CSS3",
+            "Talked about ASP.NET MVC"
           ]
         },
         {
@@ -84,11 +107,17 @@
           "to": {
             "year": 2008,
             "month": 1
-          }
+          },
+          "title": "Posts and Telecommunication Press Translator",
+          "texts": [
+            "Translated Prototype and Scriptaculous in Action into Chinese",
+            "Translated Adobe AIR in Action into Chinese"
+          ]
         }
       ]
     },
     "educationBackground": {
+      "title": "Education Background",
       "educations": [
         {
           "from": {
@@ -96,7 +125,13 @@
           },
           "to": {
             "year": 2008
-          }
+          },
+          "school": "Sun Yat-Sen University (SYSU)",
+          "city": "Guangzhou, China",
+          "texts": [
+            "Major in Network Engineering, Computer Science Department",
+            "Was recommended for admission in 2004"
+          ]
         },
         {
           "from": {
@@ -104,7 +139,12 @@
           },
           "to": {
             "year": 2004
-          }
+          },
+          "school": "the Affiliated High School of South China Normal University",
+          "city": "Guangzhou, China",
+          "texts": [
+            "Also a student of the Guangdong Olympic High School"
+          ]
         }
       ]
     },
