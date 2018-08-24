@@ -41,7 +41,7 @@ html
                 a(
                   href="/#{current.path[0]}/#{page}"
                   class="nav-link"
-                ) #{public[current.path[0]]._data[page].title}
+                ) #{public[current.path[0]]._data[page] && public[current.path[0]]._data[page].title || public._data[page].title}
             li(class="nav-item dropdown")
               a(
                 class="nav-link dropdown-toggle"
