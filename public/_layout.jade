@@ -84,6 +84,18 @@ html
       |   });
       |   observer.observe({entryTypes: ["paint"]});
       | }
+      | window.onerror = window.onunhandledrejection = function(error) {
+      |   var message;
+      |   if (error instanceof Error) {
+      |     message = error.message;
+      |   } else {
+      |     message = String(error);
+      |   }
+      |   gtag('event', 'exception', {
+      |     'description': message,
+      |     'fatal': false,
+      |   });
+      | }
 
     script(
       src="/js/jquery-3.3.1.slim.min.js"
