@@ -57,6 +57,34 @@ html
     div(class="container mt-3")
       != yield
 
+    script
+      | window.dataLayer = window.dataLayer || [];
+      | function gtag(){dataLayer.push(arguments);}
+      | gtag('js', new Date());
+      | gtag('config', 'UA-347601-6', {
+      |   custom_map: {
+      |     'dimension1': 'language',
+      |     'dimension2': 'device_pixel_ratio',
+      |     'dimension3': 'page',
+      |   },
+      |   language: '#{current.path[0]}',
+      |   device_pixel_ratio: window.devicePixelRatio,
+      |   page: '#{current.source}',
+      | });
+      | if (typeof PerformanceObserver === 'function') {
+      |   var observer = new PerformanceObserver(function(list) {
+      |     var entries = list.getEntries();
+      |     for (var i = 0; i < entries.length; i++) {
+      |       gtag('event', 'timing_complete', {
+      |         name: entries[i].name,
+      |         value: entries[i].startTime,
+      |         event_category: entries[i].entryType,
+      |       });
+      |     }
+      |   });
+      |   observer.observe({entryTypes: ["paint"]});
+      | }
+
     script(
       src="/js/jquery-3.3.1.slim.min.js"
       crossorigin="anonymous"
@@ -67,8 +95,3 @@ html
     )
 
     script(async src="https://www.googletagmanager.com/gtag/js?id=UA-347601-6")
-    script
-      | window.dataLayer = window.dataLayer || [];
-      | function gtag(){dataLayer.push(arguments);}
-      | gtag('js', new Date());
-      | gtag('config', 'UA-347601-6');
