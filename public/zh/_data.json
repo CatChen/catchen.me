@@ -18,6 +18,7 @@
   "resume": {
     "title": "简历",
     "present": "现今",
+    "involvedIn": "，曾参与：",
     "workExperience": {
       "title": "工作经验",
       "experiences": [
@@ -31,11 +32,23 @@
         },
         {
           "company": "Yahoo!",
-          "title": "软件工程师"
+          "title": "软件工程师",
+          "projects": [
+            "Search Direct 及 SearchX"
+          ]
         },
         {
           "company": "百度",
-          "title": "高级软件研发工程师"
+          "title": "高级软件研发工程师",
+          "projects": [
+            "Web 即时通讯工具",
+            "地图 API 的 iPhone 及 Android 支持",
+            "JavaScript 库，用于模式匹配及事件派发"
+          ],
+          "extraTitles": [
+            "Web 前端技术委员会成员",
+            "搜索新产品研发部技术委员会产品组成员"
+          ]
         }
       ]
     },

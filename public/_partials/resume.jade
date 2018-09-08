@@ -33,19 +33,30 @@ mixin dateRangeToLocalString(dateRange)
 
 h2
   | #{workExperience.title}
-div(class="row")
+div(class="row mb-4")
   for experience in workExperience.experiences
     div(class="col-md-4")
       h3
         mixin dateRangeToLocalString(experience)
     div(class="col-md-8")
       span(class="font-weight-bold") #{experience.company}
-      div(class="ml-4")
-        span(class="font-weight-bold") #{experience.title}
+      ul
+        li
+          span(class="font-weight-bold") #{experience.title}
+          if ('projects' in experience)
+            | #{involvedIn}
+            ul(class="mb-0")
+              for project in experience.projects
+                li
+                  | #{project}
+        if ('extraTitles' in experience)
+          for extraTitle in experience.extraTitles
+            li
+              | #{extraTitle}
 
 h2
   | #{socialActivities.title}
-div(class="row")
+div(class="row mb-4")
   for activity in socialActivities.activities
     div(class="col-md-4")
       h3
@@ -59,7 +70,7 @@ div(class="row")
 
 h2
   | #{educationBackground.title}
-div(class="row")
+div(class="row mb-4")
   for education in educationBackground.educations
     div(class="col-md-4")
       h3

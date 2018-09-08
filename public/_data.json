@@ -1,4 +1,7 @@
 {
+  "404": {
+    "layout": false
+  },
   "index": {
     "title": "Home",
     "introduction": {
@@ -20,6 +23,7 @@
   "resume": {
     "title": "Resume",
     "present": "Present",
+    "involvedIn": ", involved in:",
     "workExperience": {
       "title": "Work Experiences",
       "experiences": [
@@ -29,7 +33,17 @@
             "month": 10
           },
           "company": "Facebook",
-          "title": "Front End Engineer"
+          "title": "Front End Engineer",
+          "projects": [
+            "Mobile Web Reliability",
+            "Web Speed",
+            "████████████",
+            "Care Tools Reliability & Speed"
+          ],
+          "extraTitles": [
+            "Member of APIs@FB Steering Committee",
+            "Member of Chinese@FB Steering Committee"
+          ]
         },
         {
           "from": {
@@ -53,7 +67,10 @@
             "month": 11
           },
           "company": "Yahoo!",
-          "title": "Software Engineer"
+          "title": "Software Engineer",
+          "projects": [
+            "Search Direct and SearchX"
+          ]
         },
         {
           "from": {
@@ -65,7 +82,16 @@
             "month": 4
           },
           "company": "Baidu",
-          "title": "Senior Software Engineer"
+          "title": "Senior Software Engineer",
+          "projects": [
+            "Web Instant Messenger",
+            "Map API iPhone & Android features",
+            "JavaScript Library for Pattern Matching & Event Dispatch"
+          ],
+          "extraTitles": [
+            "Member of Web Front-End Technical Committee",
+            "Member of New Search Technical Committee Product Group"
+          ]
         }
       ]
     },
@@ -158,7 +184,6 @@
     "title": "Posts",
     "priority": 0.5
   },
-
   "pages": [
     "index",
     "resume",
@@ -186,9 +211,6 @@
         "title": "中文"
       }
     }
-  },
-  "404": {
-    "layout": false
   },
   "sitemap.xml": {
     "layout": false
