@@ -101,7 +101,24 @@
     }
   },
   "projects": {
-    "title": "项目"
+    "title": "项目",
+    "openSourceProjects": {
+      "title": "开源项目",
+      "links": [
+        {
+          "description": "这个网站可以用来查看飞利浦 Hue 智能灯光系统中的数据和「程序」。"
+        },
+        {
+          "description": "一个古老的 JavaScript 库，里面有 5 个关键的组件。Async 是 Promise 在 JavaScript 中未被普及之前的 Promise。Overload 可以模拟其它语言中的函数重载。Central 是一个事件派发器（event emitter）。GrandCentral 是一个支持 JSON 模式匹配的事件派发器（event emitter）。List 模拟无限长的数组，就好像 Haskell List 一样。"
+        },
+        {
+          "description": "在 requestAnimationFrame 标准尚未被浏览器实现之前，这曾经是一个对草案的实现。"
+        },
+        {
+          "description": "构建这个静态网站的源代码"
+        }
+      ]
+    }
   },
   "posts": {
     "title": "文章",

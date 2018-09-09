@@ -1,0 +1,9 @@
+h2
+  | #{openSourceProjects.title}
+for link in openSourceProjects.links
+  div(class="my-4")
+    a(href="#{link.url}")
+      h3
+        | #{link.name}
+    p
+      | #{link.description}
