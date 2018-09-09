@@ -182,6 +182,23 @@
   },
   "posts": {
     "title": "Posts",
+    "blogs": {
+      "title": "Blogs",
+      "links": [
+        {
+          "name": "English blog",
+          "url": "https://english.catchen.me/"
+        },
+        {
+          "name": "Chinese blog",
+          "url": "https://chinese.catchen.me/"
+        },
+        {
+          "name": "Cantonese blog",
+          "url": "https://cantonese.catchen.me/"
+        }
+      ]
+    },
     "priority": 0.5
   },
   "pages": [

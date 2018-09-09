@@ -104,6 +104,67 @@
     "title": "项目"
   },
   "posts": {
-    "title": "文章"
+    "title": "文章",
+    "blogs": {
+      "title": "博客",
+      "links": [
+        {
+          "name": "中文博客",
+          "url": "https://chinese.catchen.me/"
+        },
+        {
+          "name": "中文（粤语）博客",
+          "url": "https://cantonese.catchen.me/"
+        },
+        {
+          "name": "英文博客",
+          "url": "https://english.catchen.me/"
+        }
+      ]
+    },
+    "highlights": {
+      "title": "精选",
+      "links": [
+        {
+          "name": "移动网页的 iPhone X 适配",
+          "url": "https://chinese.catchen.me/2018/04/mobile-webpage-for-iphone-x.html"
+        },
+        {
+          "name": "用 Raspberry Pi 架设加密 DNS 客户端",
+          "url": "https://chinese.catchen.me/2018/04/encrypted-dns-through-raspberry-pi.html"
+        },
+        {
+          "name": "猜想：为什么 QR Code 在中日韩如此流行",
+          "url": "https://chinese.catchen.me/2018/06/hypothesis-why-qr-code-is-popular-in-cjk.html"
+        },
+        {
+          "name": "把我的个人网站推倒重来",
+          "urls": [
+            "https://chinese.catchen.me/2018/08/rebuild-my-website-from-scratch-part-0-history.html",
+            "https://chinese.catchen.me/2018/08/rebuild-my-website-from-scratch-part-1-using-harp-for-rendering.html",
+            "https://chinese.catchen.me/2018/09/rebuild-my-website-from-scratch-part-2-using-bootstrap-for-mobile.html"
+          ]
+        },
+        {
+          "name": "HTTP 状态码详解",
+          "url": "https://chinese.catchen.me/2012/06/http.html"
+        },
+        {
+          "name": "Covariant（协变）与 Contravariant（逆变）",
+          "url": "https://chinese.catchen.me/2012/01/covariant-contravariant.html"
+        },
+        {
+          "name": "赴美工作常识",
+          "urls": [
+            "https://chinese.catchen.me/2013/05/to-work-in-the-us-part-1-visa.html",
+            "https://chinese.catchen.me/2013/07/to-work-in-the-us-part-1-application.html",
+            "https://chinese.catchen.me/2013/08/to-work-in-the-us-part-3-english.html",
+            "https://chinese.catchen.me/2013/09/to-work-in-the-us-part-4-interview.html",
+            "https://chinese.catchen.me/2016/04/to-work-in-the-us-part-1-green-card-priority.html",
+            "https://chinese.catchen.me/2016/04/to-work-in-the-us-part-1-green-card-backlog.html"
+          ]
+        }
+      ]
+    }
   }
 }
