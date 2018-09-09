@@ -122,6 +122,9 @@
   },
   "posts": {
     "title": "文章",
+    "seriesStart": "（系列文章：",
+    "seriesEnd": "）",
+    "seriesDelimiter": "、",
     "blogs": {
       "title": "博客",
       "links": [

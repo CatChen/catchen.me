@@ -16,9 +16,9 @@ if (typeof highlights !== 'undefined' && highlights !== null)
           a(href="#{link.url}")
             | #{link.name}
         else if ('urls' in link)
-          | #{link.name} [
+          | #{link.name}#{seriesStart}
           for url, index in link.urls
-            | #{index > 0 ? ' ' : ''}
+            | #{index > 0 ? seriesDelimiter : ''}
             a(href="#{url}")
-              | #{index}
-          | ]
+              | #{index + 1}
+          | #{seriesEnd}

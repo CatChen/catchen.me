@@ -207,6 +207,9 @@
   },
   "posts": {
     "title": "Posts",
+    "seriesStart": " (Series: ",
+    "seriesEnd": ")",
+    "seriesDelimiter": ", ",
     "blogs": {
       "title": "Blogs",
       "links": [
