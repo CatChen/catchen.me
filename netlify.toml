@@ -8,6 +8,24 @@
   status = 200
   force = false
   conditions = {Language = ["zh"]}
+[[redirects]]
+  from = "/resume/"
+  to = "/zh/resume/"
+  status = 200
+  force = false
+  conditions = {Language = ["zh"]}
+[[redirects]]
+  from = "/projects/"
+  to = "/zh/projects/"
+  status = 200
+  force = false
+  conditions = {Language = ["zh"]}
+[[redirects]]
+  from = "/posts/"
+  to = "/zh/posts/"
+  status = 200
+  force = false
+  conditions = {Language = ["zh"]}
 
 [[redirects]]
   from = "/"
@@ -15,10 +33,44 @@
   status = 200
   force = false
   conditions = {Language = ["en"]}
+[[redirects]]
+  from = "/resume/"
+  to = "/en/resume/"
+  status = 200
+  force = false
+  conditions = {Language = ["en"]}
+[[redirects]]
+  from = "/projects/"
+  to = "/en/projects/"
+  status = 200
+  force = false
+  conditions = {Language = ["en"]}
+[[redirects]]
+  from = "/posts/"
+  to = "/en/posts/"
+  status = 200
+  force = false
+  conditions = {Language = ["en"]}
+
 
 [[redirects]]
   from = "/"
   to = "/en/"
+  status = 200
+  force = false
+[[redirects]]
+  from = "/resume/"
+  to = "/en/resume/"
+  status = 200
+  force = false
+[[redirects]]
+  from = "/projects/"
+  to = "/en/projects/"
+  status = 200
+  force = false
+[[redirects]]
+  from = "/posts/"
+  to = "/en/posts/"
   status = 200
   force = false
 
