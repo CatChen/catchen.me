@@ -1,9 +1,15 @@
-h2
-  | #{openSourceProjects.title}
-for link in openSourceProjects.links
+for link in links
   div(class="my-4")
     a(href="#{link.url}")
-      h3
+      h2
         | #{link.name}
+    if ('image' in link)
+      img(
+        src="#{link.image.url}"
+        srcset="#{link.image.url.replace(/_1x\.(png|jpg)$/, '_3x.$1')} 960w, #{link.image.url.replace(/_1x\.(png|jpg)$/, '_2x.$1')} 640w, #{link.image.url} 320w"
+        sizes="(min-width: 768px) 320px, calc(100vw - 30px)"
+        class="rounded my-2"
+        alt="#{link.image.alt}"
+      )
     p
       | #{link.description}
