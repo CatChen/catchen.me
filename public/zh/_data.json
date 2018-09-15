@@ -24,7 +24,11 @@
       "experiences": [
         {
           "company": "Facebook",
-          "title": "前端工程师"
+          "title": "前端工程师",
+          "extraTitles": [
+            "APIs@FB Steering Committee 成员",
+            "Chinese@FB Steering Committee 成员"
+          ]
         },
         {
           "company": "豌豆实验室",
