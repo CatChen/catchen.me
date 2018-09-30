@@ -1,12 +1,19 @@
 div(class="row")
-  div(class="col-md-4")
-    img(
-      src="/images/profile_picture_360_360_1x.jpg"
-      srcset="/images/profile_picture_360_360_3x.jpg 1080w, /images/profile_picture_360_360_2x.jpg 720w, /images/profile_picture_360_360_1x.jpg 360w"
-      sizes="(min-width: 1200px) 350px, (min-width: 992px) 290px, (min-width: 768px) 210px, calc(100vw - 30px)"
-      class="img-fluid"
-      alt="profile picture"
-    )
+  div(class="col-md-4 mb-4")
+    picture
+      source(
+        media="(max-width: 767.98px)"
+        src="/images/profile_picture_360_240_1x.jpg"
+        srcset="/images/profile_picture_360_240_3x.jpg 1080w, /images/profile_picture_360_240_2x.jpg 720w, /images/profile_picture_360_240_1x.jpg 360w"
+        sizes="calc(100vw - 30px)"
+      )
+      img(
+        src="/images/profile_picture_360_360_1x.jpg"
+        srcset="/images/profile_picture_360_360_3x.jpg 1080w, /images/profile_picture_360_360_2x.jpg 720w, /images/profile_picture_360_360_1x.jpg 360w"
+        sizes="(min-width: 1200px) 350px, (min-width: 992px) 290px, (min-width: 768px) 210px, calc(100vw - 30px)"
+        class="img-fluid"
+        alt="profile picture"
+      )
   div(class="col-md-8")
     h2 #{introduction.title}
     p
