@@ -242,6 +242,7 @@
   ],
   "locales": {
     "en": {
+      "404": "Page cannot be found.",
       "name": "Chen, Guangchen (aka Cat Chen)",
       "language": "Language",
       "en": {
@@ -252,6 +253,7 @@
       }
     },
     "zh": {
+      "404": "页面并不存在。",
       "name": "陈广琛",
       "language": "语言",
       "en": {
