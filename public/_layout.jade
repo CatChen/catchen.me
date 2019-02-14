@@ -25,6 +25,8 @@ html(lang="#{current.path[0]}")
     link(rel="alternate" hreflang="x-default" href="https://catchen.me/#{current.source.replace(/^index$/, '')}")
     for data, locale in public._data.locales
       link(rel="alternate" hreflang="#{locale}" href="https://catchen.me/#{locale}/#{current.source.replace(/^index$/, '')}")
+    if ('prerender' in public._data[current.source])
+      link(rel="prerender" href="/#{current.path[0]}/#{public._data[current.source].prerender}")
 
   body
     nav(class="navbar navbar-expand-md navbar-light bg-light")

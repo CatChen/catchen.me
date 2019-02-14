@@ -17,6 +17,7 @@
     "links": {
       "title": "Links"
     },
+    "prerender": "resume",
     "priority": 0.6,
     "layout": false
   },
@@ -174,6 +175,7 @@
         }
       ]
     },
+    "prerender": "projects",
     "priority": 0.8
   },
   "projects": {
@@ -208,6 +210,7 @@
         }
       }
     ],
+    "prerender": "posts",
     "priority": 0.5
   },
   "posts": {
