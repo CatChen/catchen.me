@@ -7,7 +7,7 @@ mixin tree(current, path)
         if /\.html$/.test(file) && !/^\d{3}\.html$/.test(file)
           url
             loc
-              | http://catchen.me#{path}#{file.replace(/(index)?\.html$/, '')}
+              | https://catchen.me#{path}#{file.replace(/(index)?\.html$/, '')}
             changefreq
               | hourly
             priority
