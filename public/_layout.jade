@@ -39,14 +39,14 @@ html(lang="#{current.path[0]}")
             for page in public._data.pages
               li(class="nav-item #{current.source === page ? 'active' : ''}")
                 a(
-                  href="/#{current.path[0]}/#{page}"
+                  href="/#{current.path[0]}/#{page.replace(/^index$/, '')}"
                   class="nav-link"
                 ) #{public[current.path[0]]._data[page] && public[current.path[0]]._data[page].title || public._data[page].title}
           ul(class="navbar-nav")
             for data, locale in public._data.locales
               li(class="nav-item #{current.path[0] === locale ? 'active d-none d-md-block' : ''}")
                 a(
-                  href="/#{locale}/#{current.source}"
+                  href="/#{locale}/#{current.source.replace(/^index$/, '')}"
                   class="nav-link"
                 ) #{public._data.locales[locale][locale].title}
 
