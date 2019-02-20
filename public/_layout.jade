@@ -22,6 +22,7 @@ html(lang="#{current.path[0]}")
       crossorigin="anonymous"
     )
     link(rel="icon" href="/favicon.ico")
+    link(rel="canonical" href="#{'https://catchen.me/' + current.path[0] + '/' + current.source.replace(/^index$/, '')}")
     link(rel="alternate" hreflang="x-default" href="https://catchen.me/#{current.source.replace(/^index$/, '')}")
     for data, locale in public._data.locales
       link(rel="alternate" hreflang="#{locale}" href="https://catchen.me/#{locale}/#{current.source.replace(/^index$/, '')}")
