@@ -12,7 +12,35 @@ html
     meta(property="fb:pages" content="319695031499949")
     title
       | Chen, Guangchen (aka Cat Chen) | 陈广琛
+    link(
+      rel="stylesheet"
+      href="/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    )
+    link(rel="icon" href="/favicon.ico")
+    link(rel="prerender" href="/")
   body
-    for data, locale in public._data.locales
-      div
-        | #{public._data.locales[locale][404]}
+    nav(class="navbar navbar-expand-md navbar-light bg-light")
+      div(class="container")
+        button(class="navbar-toggler" type="button" disabled)
+          span(class="navbar-toggler-icon")
+        div(class="navbar-collapse" id="navbarSupportedContent")
+          ul(class="navbar-nav mr-auto")
+            for page in public._data.pages
+              li(class="nav-item")
+                a(
+                  href="/#{page.replace(/^index$/, '')}"
+                  class="nav-link"
+                ) #{public._data[page].title}
+          ul(class="navbar-nav d-none d-md-flex")
+            for data, locale in public._data.locales
+              li(class="nav-item")
+                a(
+                  href="/#{locale}/#{current.source.replace(/^index$/, '')}"
+                  class="nav-link disabled"
+                ) #{public._data.locales[locale][locale].title}
+
+    div(class="container mt-3")
+      for data, locale in public._data.locales
+        h2
+          | #{public._data.locales[locale][404]}
