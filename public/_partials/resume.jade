@@ -42,8 +42,10 @@ div(class="row my-4")
       ul
         li
           span(class="font-weight-bold") #{experience.title}
+          if ('titleExtra' in experience)
+            | #{comma}#{experience.titleExtra}
           if ('projects' in experience)
-            | #{involvedIn}
+            | #{comma}#{involvedIn}
             ul(class="mb-0")
               for project in experience.projects
                 li
