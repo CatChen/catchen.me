@@ -25,7 +25,6 @@
     "title": "Resume",
     "present": "Present",
     "comma": ", ",
-    "involvedIn": "involved in:",
     "workExperience": {
       "title": "Work Experiences",
       "experiences": [
@@ -34,13 +33,17 @@
             "year": 2012,
             "month": 10
           },
+          "to": {
+            "year": 2019,
+            "month": 7
+          },
           "company": "Facebook",
           "title": "Front End Engineer",
           "projects": [
-            "Mobile Web Reliability",
-            "Web Speed",
-            "████████████",
-            "Review Tools Reliability & Speed"
+            "Mobile Web Front-End Reliability (Logging & Bug Fixing)",
+            "Desktop Web End-to-End Performance (Monitoring, Analysis & Optimization)",
+            "████████████ (User Growth Moonshot Project)",
+            "Human Review Platform Reliability & Performance"
           ],
           "extraTitles": [
             "Member of APIs@FB Steering Committee",
@@ -71,6 +74,7 @@
           },
           "company": "Yahoo!",
           "title": "Software Engineer",
+          "titleExtra": "involved in:",
           "projects": [
             "Search Direct and SearchX"
           ]

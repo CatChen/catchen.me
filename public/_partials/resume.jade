@@ -45,7 +45,6 @@ div(class="row my-4")
           if ('titleExtra' in experience)
             | #{comma}#{experience.titleExtra}
           if ('projects' in experience)
-            | #{comma}#{involvedIn}
             ul(class="mb-0")
               for project in experience.projects
                 li
