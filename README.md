@@ -1,4 +1,4 @@
-# catchen.me
+# catchen.me [![Netlify Status](https://api.netlify.com/api/v1/badges/d31fdc8f-877d-4986-911e-41cd7804bb09/deploy-status)](https://app.netlify.com/sites/catchen/deploys)
 
 This is the source code that can be compiled into the static site behind catchen.me.
 
