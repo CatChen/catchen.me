@@ -112,6 +112,12 @@
   from = "/more.zh-HK.html"
   to = "/zh/posts"
 
+[[redirects]]
+  from = "https://catchen.netlify.com/*"
+  to = "https://catchen.me/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
