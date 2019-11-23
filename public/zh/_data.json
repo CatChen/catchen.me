@@ -29,23 +29,24 @@
           "projects": [
             "移动网页前端可靠性（日志及错误修复）",
             "桌面网页端到端性能（监控、分析及优化）",
-            "████████████（用户增长特种项目）",
+            "React Native 在用户增长的应用",
+            "用户增长特种项目",
             "人工审阅平台可靠性及性能"
           ],
           "extraTitles": [
-            "APIs@FB Steering Committee 成员",
-            "Chinese@FB Steering Committee 成员"
+            "工程团队经理（在用户增长特种项目期间）",
+            "APIs@FB（亚裔员工）指导委员会成员",
+            "Chinese@FB（华裔员工）指导委员会成员"
           ]
         },
         {
           "company": "豌豆实验室",
           "title": "前端架构师",
-          "titleExtra": "管理前端团队（5 名前端工程师）"
+          "titleExtra": "管理前端团队"
         },
         {
           "company": "Yahoo!",
           "title": "软件工程师",
-          "titleExtra": "曾参与：",
           "projects": [
             "Search Direct 及 SearchX"
           ]

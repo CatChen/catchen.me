@@ -42,10 +42,12 @@
           "projects": [
             "Mobile Web Front-End Reliability (Logging & Bug Fixing)",
             "Desktop Web End-to-End Performance (Monitoring, Analysis & Optimization)",
-            "████████████ (User Growth Moonshot Project)",
+            "React Native in User Growth",
+            "User Growth Moonshot Project",
             "Human Review Platform Reliability & Performance"
           ],
           "extraTitles": [
+            "Engineering Manager in the Moonshot Project",
             "Member of APIs@FB Steering Committee",
             "Member of Chinese@FB Steering Committee"
           ]
@@ -61,7 +63,7 @@
           },
           "company": "Wandou Labs",
           "title": "Front-End Architect",
-          "titleExtra": "managing front-end team (5 engineers)"
+          "titleExtra": "managing the Front-End Team"
         },
         {
           "from": {
@@ -74,7 +76,6 @@
           },
           "company": "Yahoo!",
           "title": "Software Engineer",
-          "titleExtra": "involved in:",
           "projects": [
             "Search Direct and SearchX"
           ]
