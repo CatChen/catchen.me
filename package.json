@@ -1,0 +1,26 @@
+{
+  "name": "catchen.me",
+  "version": "1.0.0",
+  "description": "This is the source code that can be compiled into the static site behind catchen.me.",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "harp": "^0.31.0",
+    "postcss-cli": "^6.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "harp compile . && npx postcss www/css/*.css --use autoprefixer -d www/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatChen/catchen.me.git"
+  },
+  "author": "Cat Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CatChen/catchen.me/issues"
+  },
+  "homepage": "https://github.com/CatChen/catchen.me#readme"
+}
