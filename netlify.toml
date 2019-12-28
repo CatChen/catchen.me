@@ -1,5 +1,5 @@
 [build]
-  command = "npm install -g harp && harp compile"
+  command = "yarn build"
   publish = "www"
 
 [[redirects]]
