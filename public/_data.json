@@ -30,6 +30,35 @@
       "experiences": [
         {
           "from": {
+            "year": 2020,
+            "month": 2
+          },
+          "company": "Robinhood",
+          "roles": [
+            {
+              "title": "Web Engineer"
+            }
+          ]
+        },
+        {
+          "from": {
+            "year": 2018,
+            "month": 10
+          },
+          "company": "Coaching Business",
+          "roles": [
+            {
+              "title": "Career Coach",
+              "projects": [
+                "Coaching software engineers for career growth through one-on-one",
+                "Preparing computer science students for an upcoming industrial career",
+                "Helping tech workers prepare for job application and  interview"
+              ]
+            }
+          ]
+        },
+        {
+          "from": {
             "year": 2012,
             "month": 10
           },

@@ -24,6 +24,27 @@
       "title": "工作经验",
       "experiences": [
         {
+          "company": "Robinhood",
+          "roles": [
+            {
+              "title": "Web 工程师"
+            }
+          ]
+        },
+        {
+          "company": "培训业务",
+          "roles": [
+            {
+              "title": "职业发展教练",
+              "projects": [
+                "为软件工程师的职业发展提供一对一辅导",
+                "为计算机系学生进入工业界提前做好准备",
+                "帮助科技行业工作者针对求职面试做准备"
+              ]
+            }
+          ]
+        },
+        {
           "company": "Facebook",
           "roles": [
             {
