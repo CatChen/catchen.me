@@ -38,18 +38,28 @@
             "month": 7
           },
           "company": "Facebook",
-          "title": "Front End Engineer",
-          "projects": [
-            "Mobile Web Front-End Reliability (Logging & Bug Fixing)",
-            "Desktop Web End-to-End Performance (Monitoring, Analysis & Optimization)",
-            "React Native in User Growth",
-            "User Growth Moonshot Project",
-            "Human Review Platform Reliability & Performance"
-          ],
-          "extraTitles": [
-            "Engineering Manager in the Moonshot Project",
-            "Member of APIs@FB Steering Committee",
-            "Member of Chinese@FB Steering Committee"
+          "roles": [
+            {
+              "title": "Front End Engineer",
+              "projects": [
+                "Mobile Web Front-End Reliability (Logging & Bug Fixing)",
+                "Desktop Web End-to-End Performance (Monitoring, Analysis & Optimization)",
+                "React Native in User Growth",
+                "User Growth Moonshot Project",
+                "Human Review Platform Reliability & Performance"
+              ]
+            },
+            {
+              "title": "Engineering Manager (in the Moonshot Project)"
+            },
+            {
+              "title": "Member of APIs@FB Steering Committee",
+              "titleExtra": "led the Lunar New Year celebration volunteers for 7 years"
+            },
+            {
+              "title": "Member of Chinese@FB Steering Committee",
+              "titleExtra": "kickstarted coaching programs for Chinese engineers and managers"
+            }
           ]
         },
         {
@@ -62,8 +72,12 @@
             "month": 9
           },
           "company": "Wandou Labs",
-          "title": "Front-End Architect",
-          "titleExtra": "managing the Front-End Team"
+          "roles": [
+            {
+              "title": "Front-End Architect",
+              "titleExtra": "managing the Front-End Team"
+            }
+          ]
         },
         {
           "from": {
@@ -75,9 +89,11 @@
             "month": 11
           },
           "company": "Yahoo!",
-          "title": "Software Engineer",
-          "projects": [
-            "Search Direct and SearchX"
+          "roles": [
+            {
+              "title": "Software Engineer",
+              "titleExtra": "worked on Search Direct and SearchX"
+            }
           ]
         },
         {
@@ -90,15 +106,21 @@
             "month": 4
           },
           "company": "Baidu",
-          "title": "Senior Software Engineer",
-          "projects": [
-            "Web Instant Messenger",
-            "Map API iPhone & Android features",
-            "JavaScript Library for Pattern Matching & Event Dispatch"
-          ],
-          "extraTitles": [
-            "Member of Web Front-End Technical Committee",
-            "Member of New Search Technical Committee Product Group"
+          "roles": [
+            {
+              "title": "Senior Software Engineer",
+              "projects": [
+                "Web Instant Messenger",
+                "Map API iPhone & Android features",
+                "JavaScript Library for Pattern Matching & Event Dispatch"
+              ]
+            },
+            {
+              "title": "Member of Web Front-End Technical Committee"
+            },
+            {
+              "title": "Member of New Search Technical Committee Product Group"
+            }
           ]
         }
       ]
@@ -121,10 +143,7 @@
           ]
         },
         {
-          "years": [
-            2009,
-            2010
-          ],
+          "years": [2009, 2010],
           "title": "Microsoft Tech·Ed China Speaker",
           "texts": [
             "Talked about Baidu Silverlight RIA Architecture",
@@ -176,9 +195,7 @@
           },
           "school": "The Affiliated High School of South China Normal University",
           "city": "Guangzhou, China",
-          "texts": [
-            "Also a student of the Guangdong Olympic High School"
-          ]
+          "texts": ["Also a student of the Guangdong Olympic High School"]
         }
       ]
     },
@@ -244,12 +261,7 @@
     },
     "priority": 0.5
   },
-  "pages": [
-    "index",
-    "resume",
-    "projects",
-    "posts"
-  ],
+  "pages": ["index", "resume", "projects", "posts"],
   "locales": {
     "en": {
       "404": "Page not found",

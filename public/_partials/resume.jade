@@ -40,19 +40,19 @@ div(class="row my-4")
     div(class="col-md-8")
       h3 #{experience.company}
       ul
-        li
-          span(class="font-weight-bold") #{experience.title}
-          if ('titleExtra' in experience)
-            | #{comma}#{experience.titleExtra}
-          if ('projects' in experience)
-            ul(class="mb-0")
-              for project in experience.projects
-                li
-                  | #{project}
-        if ('extraTitles' in experience)
-          for extraTitle in experience.extraTitles
-            li
-              | #{extraTitle}
+        for role, index in experience.roles
+          li
+            if index === 0
+              span(class="font-weight-bold") #{role.title}
+            else
+              span #{role.title}
+            if ('titleExtra' in role)
+              | #{comma}#{role.titleExtra}
+            if ('projects' in role)
+              ul(class="mb-0")
+                for project in role.projects
+                  li
+                    | #{project}
 
 h2
   | #{socialActivities.title}
