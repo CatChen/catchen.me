@@ -25,43 +25,65 @@
       "experiences": [
         {
           "company": "Facebook",
-          "title": "前端工程师",
-          "projects": [
-            "移动网页前端可靠性（日志及错误修复）",
-            "桌面网页端到端性能（监控、分析及优化）",
-            "React Native 在用户增长的应用",
-            "用户增长特种项目",
-            "人工审阅平台可靠性及性能"
-          ],
-          "extraTitles": [
-            "工程团队经理（在用户增长特种项目期间）",
-            "APIs@FB（亚裔员工）指导委员会成员",
-            "Chinese@FB（华裔员工）指导委员会成员"
+          "roles": [
+            {
+              "title": "前端工程师",
+              "projects": [
+                "移动网页前端可靠性（日志及错误修复）",
+                "桌面网页端到端性能（监控、分析及优化）",
+                "React Native 在用户增长的应用",
+                "用户增长特种项目",
+                "人工审阅平台可靠性及性能"
+              ]
+            },
+            {
+              "title": "工程团队经理（在用户增长特种项目期间）"
+            },
+            {
+              "title": "APIs@FB（亚裔员工）指导委员会成员",
+              "titleExtra": "连续 7 年领导春节联欢晚会志愿者团队"
+            },
+            {
+              "title": "Chinese@FB（华人员工）指导委员会成员",
+              "titleExtra": "组织了面向华人工程师及经理的培训项目"
+            }
           ]
         },
         {
           "company": "豌豆实验室",
-          "title": "前端架构师",
-          "titleExtra": "管理前端团队"
+          "roles": [
+            {
+              "title": "前端架构师",
+              "titleExtra": "管理前端团队"
+            }
+          ]
         },
         {
           "company": "Yahoo!",
-          "title": "软件工程师",
-          "projects": [
-            "Search Direct 及 SearchX"
+          "roles": [
+            {
+              "title": "软件工程师",
+              "titleExtra": "曾参与 Search Direct 及 SearchX 项目"
+            }
           ]
         },
         {
           "company": "百度",
-          "title": "高级软件研发工程师",
-          "projects": [
-            "Web 即时通讯工具",
-            "地图 API 的 iPhone 及 Android 支持",
-            "JavaScript 库，用于模式匹配及事件派发"
-          ],
-          "extraTitles": [
-            "Web 前端技术委员会成员",
-            "搜索新产品研发部技术委员会产品组成员"
+          "roles": [
+            {
+              "title": "高级软件研发工程师",
+              "projects": [
+                "Web 即时通讯工具",
+                "地图 API 的 iPhone 及 Android 支持",
+                "JavaScript 库，用于模式匹配及事件派发"
+              ]
+            },
+            {
+              "title": "Web 前端技术委员会成员"
+            },
+            {
+              "title": "搜索新产品研发部技术委员会产品组成员"
+            }
           ]
         }
       ]
@@ -71,9 +93,7 @@
       "activities": [
         {
           "title": "John Bryce Training 培训师",
-          "texts": [
-            "为 Adobe、Canon 及 CA 提供了 HTML5 及 JavaScript 培训"
-          ]
+          "texts": ["为 Adobe、Canon 及 CA 提供了 HTML5 及 JavaScript 培训"]
         },
         {
           "title": "Tech•Ed 微软技术大会讲师",
@@ -99,17 +119,12 @@
         {
           "school": "中山大学",
           "city": "中国广州",
-          "texts": [
-            "计算机科学系，网络工程专业",
-            "2004 年被免试录取"
-          ]
+          "texts": ["计算机科学系，网络工程专业", "2004 年被免试录取"]
         },
         {
           "school": "华南师范大学附属中学",
           "city": "中国广州",
-          "texts": [
-            "同时亦为广东奥林匹克学校学生"
-          ]
+          "texts": ["同时亦为广东奥林匹克学校学生"]
         }
       ]
     }
