@@ -6,7 +6,7 @@
     "title": "Home",
     "introduction": {
       "title": "Introduction",
-      "text": "I am Guangchen Chen (aka Cat Chen). I'm a programmer, author, speaker and career coach. I worked as engineer and/or manager at Facebook, Wandou Labs, Yahoo and Baidu. I'm an alumnus of HSFZ and SYSU."
+      "text": "I am Cat Chen. I'm a programmer, author, speaker and career coach. I worked as engineer and/or manager at Facebook, Wandou Labs, Yahoo and Baidu. I'm an alumnus of HSFZ and SYSU."
     },
     "contacts": {
       "title": "Contacts",
@@ -294,7 +294,7 @@
   "locales": {
     "en": {
       "404": "Page not found",
-      "name": "Chen, Guangchen (aka Cat Chen)",
+      "name": "Cat Chen",
       "language": "Language",
       "en": {
         "title": "English"
