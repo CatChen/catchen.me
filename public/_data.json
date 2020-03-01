@@ -295,6 +295,7 @@
     "en": {
       "404": "Page not found",
       "name": "Cat Chen",
+      "possessiveCase": "'s ",
       "language": "Language",
       "en": {
         "title": "English"
@@ -306,6 +307,7 @@
     "zh": {
       "404": "页面未找到",
       "name": "陈广琛",
+      "possessiveCase": "的",
       "language": "语言",
       "en": {
         "title": "英文"
