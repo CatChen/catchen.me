@@ -113,6 +113,13 @@
       "title": "社会活动",
       "activities": [
         {
+          "title": "线上内容创作者及意见领袖",
+          "texts": [
+            "知乎 35 万关注，Twitter 一万关注",
+            "《牛油果烤面包》主播（这是一档中文科技播客）"
+          ]
+        },
+        {
           "title": "John Bryce Training 培训师",
           "texts": ["为 Adobe、Canon 及 CA 提供了 HTML5 及 JavaScript 培训"]
         },
