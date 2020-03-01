@@ -11,7 +11,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "harp compile . && npx postcss www/css/*.css --use autoprefixer -d www/css/"
+    "build": "harp compile . && npx postcss www/css/*.css --use autoprefixer -d www/css/",
+    "start": "harp server ."
   },
   "repository": {
     "type": "git",
