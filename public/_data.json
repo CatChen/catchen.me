@@ -31,6 +31,18 @@
         {
           "from": {
             "year": 2020,
+            "month": 3
+          },
+          "company": "Sand Hill Angels",
+          "roles": [
+            {
+              "title": "Angel Investor"
+            }
+          ]
+        },
+        {
+          "from": {
+            "year": 2020,
             "month": 2
           },
           "company": "Robinhood",

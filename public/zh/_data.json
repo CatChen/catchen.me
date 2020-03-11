@@ -24,6 +24,18 @@
       "title": "工作经验",
       "experiences": [
         {
+          "from": {
+            "year": 2020,
+            "month": 3
+          },
+          "company": "Sand Hill Angels",
+          "roles": [
+            {
+              "title": "天使投资人"
+            }
+          ]
+        },
+        {
           "company": "Robinhood",
           "roles": [
             {
