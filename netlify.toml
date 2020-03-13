@@ -2,11 +2,12 @@
   command = "yarn build"
   publish = "www"
 
+# zh locale
 [[redirects]]
   from = "/"
   to = "/zh/"
   status = 200
-  force = false
+  force = true
   conditions = {Language = ["zh"]}
 [[redirects]]
   from = "/resume/"
@@ -27,11 +28,12 @@
   force = false
   conditions = {Language = ["zh"]}
 
+# en locale
 [[redirects]]
   from = "/"
   to = "/en/"
   status = 200
-  force = false
+  force = true
   conditions = {Language = ["en"]}
 [[redirects]]
   from = "/resume/"
@@ -52,12 +54,12 @@
   force = false
   conditions = {Language = ["en"]}
 
-
+# other locales
 [[redirects]]
   from = "/"
   to = "/en/"
   status = 200
-  force = false
+  force = true
 [[redirects]]
   from = "/resume/"
   to = "/en/resume/"
