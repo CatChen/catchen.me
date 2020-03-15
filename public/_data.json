@@ -257,10 +257,11 @@
         "name": "Career Coaching",
         "description": [
           "Have one-on-one with me. We can talk about anything you want to learn and grow.",
-          "Most of my clients are software engineers or computer science students. Software engineers use my coaching to grow their skills and get promotion. Computer science students learn how to better prepare for the industry and find their ideal jobs."
+          "Most of my clients are software engineers or computer science students. Software engineers use my coaching to grow their skills and get promotions. Computer science students learn how to better prepare for the industry and find their ideal jobs.",
+          "The hourly rate is $300 (US Dollar). Many clients choose to meet 30 minutes bi-weekly. Some clients choose to meet on an ad-hoc basis."
         ],
         "link": {
-          "text": "Join",
+          "text": "Join Now",
           "url": "https://www.patreon.com/join/catchen"
         }
       },
