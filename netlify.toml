@@ -16,6 +16,12 @@
   force = false
   conditions = {Language = ["zh"]}
 [[redirects]]
+  from = "/services/"
+  to = "/zh/services/"
+  status = 200
+  force = false
+  conditions = {Language = ["zh"]}
+[[redirects]]
   from = "/projects/"
   to = "/zh/projects/"
   status = 200
@@ -42,6 +48,12 @@
   force = false
   conditions = {Language = ["en"]}
 [[redirects]]
+  from = "/services/"
+  to = "/en/services/"
+  status = 200
+  force = false
+  conditions = {Language = ["en"]}
+[[redirects]]
   from = "/projects/"
   to = "/en/projects/"
   status = 200
@@ -63,6 +75,11 @@
 [[redirects]]
   from = "/resume/"
   to = "/en/resume/"
+  status = 200
+  force = false
+[[redirects]]
+  from = "/services/"
+  to = "/en/services/"
   status = 200
   force = false
 [[redirects]]
