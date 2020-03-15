@@ -2,6 +2,32 @@
   command = "yarn build"
   publish = "www"
 
+# singular to plural correction
+[[redirects]]
+  from = "/service/"
+  to = "/services/"
+  status = 301
+[[redirects]]
+  from = "/:locale/service/"
+  to = "/:locale/services/"
+  status = 301
+[[redirects]]
+  from = "/project/"
+  to = "/projects/"
+  status = 301
+[[redirects]]
+  from = "/:locale/project/"
+  to = "/:locale/projects/"
+  status = 301
+[[redirects]]
+  from = "/post/"
+  to = "/posts/"
+  status = 301
+[[redirects]]
+  from = "/:locale/post/"
+  to = "/:locale/posts/"
+  status = 301
+
 # zh locale
 [[redirects]]
   from = "/"
