@@ -11,5 +11,11 @@ for program in programs
           for subitem in item
             li
               | #{subitem}
-    a(class="btn btn-primary" href="#{program.link.url}" role="button")
-      | #{program.link.text}
+    div
+      for link, index in program.links
+        if (index === 0)
+          a(class="btn btn-primary mr-1" href="#{link.url}" role="button")
+            | #{link.text}
+        else
+          a(class="btn btn-secondary mr-1" href="#{link.url}" role="button")
+            | #{link.text}
