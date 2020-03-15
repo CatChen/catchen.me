@@ -1,0 +1,10 @@
+for program in programs
+  div(class="my-4")
+    h2
+      | #{program.name}
+    for paragraph in program.description
+      if (typeof paragraph === 'string')
+        p
+          | #{paragraph}
+    a(class="btn btn-primary" href="#{program.link.url}" role="button")
+      | #{program.link.text}

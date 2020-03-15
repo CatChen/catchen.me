@@ -250,6 +250,42 @@
     "prerender": "projects",
     "priority": 0.8
   },
+  "services": {
+    "title": "Services",
+    "programs": [
+      {
+        "name": "Career Coaching",
+        "description": [
+          "Have one-on-one with me. We can talk about anything you want to learn and grow.",
+          "Most of my clients are software engineers or computer science students. Software engineers use my coaching to grow their skills and get promotion. Computer science students learn how to better prepare for the industry and find their ideal jobs."
+        ],
+        "link": {
+          "text": "Join",
+          "url": "https://www.patreon.com/join/catchen"
+        }
+      },
+      {
+        "name": "AlgoTogether",
+        "description": [
+          "AlgoTogether is an algorithmic problem study group with a coach. The program focuses on all necessary skills for coding interviews: problem-solving, coding, debugging, articulating solutions, taking feedback. The coach leads the meeting and makes sure that students learn these skills in a way that they can reapply to new problems in real interviews."
+        ],
+        "link": {
+          "text": "Learn More",
+          "url": "https://medium.com/@catchen/algotogether-%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%B0%8F%E7%BB%84-73477c04c5a7"
+        }
+      },
+      {
+        "name": "System Deep Dive",
+        "description": [
+          "System Deep Dive is a system design practice group with a coach. The program not only teaches you all the necessary skills to excel at a system design interview but also practices designing complex systems together. In each session, the coach would lead the students to dive deep into a complex system problem and explore different design choices together. Students are encouraged to ask questions and deliberate trade-offs because that’s the best way to learn."
+        ],
+        "link": {
+          "text": "Learn More",
+          "url": "https://medium.com/@catchen/system-deep-dive-%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%B0%8F%E7%8F%AD-700f33f96aa8"
+        }
+      }
+    ]
+  },
   "projects": {
     "title": "Projects",
     "links": [
@@ -309,7 +345,7 @@
     },
     "priority": 0.5
   },
-  "pages": ["index", "resume", "projects", "posts"],
+  "pages": ["index", "resume", "services", "projects", "posts"],
   "locales": {
     "en": {
       "404": "Page not found",
