@@ -256,9 +256,15 @@
       {
         "name": "Career Coaching",
         "description": [
-          "Have one-on-one with me. We can talk about anything you want to learn and grow.",
+          "Have a one-on-one with me. We can talk about anything you want to learn and grow.",
           "Most of my clients are software engineers or computer science students. Software engineers use my coaching to grow their skills and get promotions. Computer science students learn how to better prepare for the industry and find their ideal jobs.",
-          "The hourly rate is $300 (US Dollar). Many clients choose to meet 30 minutes bi-weekly. Some clients choose to meet on an ad-hoc basis."
+          "Common one-on-one formats are:",
+          [
+            "Mock interview: coding interview, system design interview or behavior interview.",
+            "Skill learning: pick a technical skill or a soft skill, identify an opportunity to practice, execute and get feedback.",
+            "Career planning: discover what matters most to you and what kind of person you want to become, identify the critical path towards there, break it down into executable milestones."
+          ],
+          "The hourly rate is $300 (US Dollar). Many clients choose to meet 30 minutes bi-weekly continuously. Some clients choose to meet on an ad-hoc basis."
         ],
         "link": {
           "text": "Join Now",

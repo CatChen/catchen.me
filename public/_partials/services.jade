@@ -2,9 +2,14 @@ for program in programs
   div(class="my-4")
     h2
       | #{program.name}
-    for paragraph in program.description
-      if (typeof paragraph === 'string')
+    for item in program.description
+      if (typeof item === 'string')
         p
-          | #{paragraph}
+          | #{item}
+      else if (Array.isArray(item))
+        ul
+          for subitem in item
+            li
+              | #{subitem}
     a(class="btn btn-primary" href="#{program.link.url}" role="button")
       | #{program.link.text}
