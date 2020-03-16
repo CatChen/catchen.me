@@ -25,3 +25,51 @@ h3 {
     padding-left: 20px;
   }
 }
+
+@supports (margin-top: env(safe-area-inset-top)) {
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  body > .navbar {
+    padding-left: unquote("max(env(safe-area-inset-left), 1em)");
+    padding-right: unquote("max(env(safe-area-inset-right), 1em)");
+  }
+
+  @include media-breakpoint-up(sm) {
+    body > .container {
+      max-width: calc(
+        540px + env(safe-area-inset-left) + env(safe-area-inset-right)
+      );
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    body > .container {
+      max-width: calc(
+        720px + env(safe-area-inset-left) + env(safe-area-inset-right)
+      );
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    body > .container {
+      max-width: calc(
+        960px + env(safe-area-inset-left) + env(safe-area-inset-right)
+      );
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    body > .container {
+      max-width: calc(
+        1140px + env(safe-area-inset-left) + env(safe-area-inset-right)
+      );
+    }
+  }
+
+  body > .container {
+    padding-left: calc(env(safe-area-inset-left) + 15px);
+    padding-right: calc(env(safe-area-inset-right) + 15px);
+  }
+}
