@@ -258,6 +258,15 @@
         }
       ]
     },
+    "podcasts": {
+      "title": "播客",
+      "links": [
+        {
+          "name": "牛油果烤面包（科技趋势评论）",
+          "url": "https://avocadotoast.live/"
+        }
+      ]
+    },
     "highlights": {
       "title": "精选",
       "links": [

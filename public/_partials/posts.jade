@@ -6,6 +6,14 @@ ul
       a(href="#{link.url}")
         | #{link.name}
 
+h2
+  | #{podcasts.title}
+ul
+  for link in podcasts.links
+    li
+      a(href="#{link.url}")
+        | #{link.name}
+
 if (typeof highlights !== 'undefined' && highlights !== null)
   h2
     | #{highlights.title}

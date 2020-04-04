@@ -368,6 +368,15 @@
         }
       ]
     },
+    "podcasts": {
+      "title": "Podcasts",
+      "links": [
+        {
+          "name": "Avocado Toast (Chinese technology trend review)",
+          "url": "https://avocadotoast.live/"
+        }
+      ]
+    },
     "priority": 0.5
   },
   "pages": ["index", "resume", "services", "projects", "posts"],
