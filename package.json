@@ -4,7 +4,7 @@
   "description": "This is the source code that can be compiled into the static site behind catchen.me.",
   "main": "index.js",
   "dependencies": {
-    "autoprefixer": "^9.7.3",
+    "autoprefixer": "^9.7.6",
     "harp": "^0.31.0",
     "postcss-cli": "^7.1.0"
   },
