@@ -313,11 +313,23 @@
   },
   "projects": {
     "title": "Projects",
+    "sourceCode": "Source Code",
     "links": [
+      {
+        "name": "Trace URL",
+        "description": "A web app to expand shortened URL into original URL or trace any URL with redirections towards the destination.",
+        "urls": {
+          "source": "https://github.com/CatChen/traceurl-web/",
+          "web": "https://traceurl.catchen.app/"
+        }
+      },
       {
         "name": "Hue Explorer",
         "description": "A website to explore and visualize the data and \"programs\" stored in your Philips Hue bridge.",
-        "url": "https://github.com/shanzhaime/hue-explorer",
+        "urls": {
+          "source": "https://github.com/shanzhaime/hue-explorer",
+          "web": "https://hueexplorer.catchen.app/"
+        },
         "image": {
           "url": "/images/hue_explorer_320_180_1x.png",
           "alt": "Hue Explorer screenshot"
@@ -326,17 +338,24 @@
       {
         "name": "jsHelpers",
         "description": "An old JavaScript library with 5 key components. Async was like Promise before Promise was widely used in JavaScript. Overload simulates function overload in other languages. Central is an event emitter. GrandCentral is an event emitter with JSON pattern based event filtering. List simulates an infinite array like in Haskell.",
-        "url": "https://github.com/CatChen/jsHelpers"
+        "urls": {
+          "source": "https://github.com/CatChen/jsHelpers"
+        }
       },
       {
         "name": "requestAnimationFrame",
         "description": "An old implementation of requestAnimationFrame draft before it was widely implemented by browsers.",
-        "url": "https://github.com/CatChen/requestAnimationFrame"
+        "urls": {
+          "source": "https://github.com/CatChen/requestAnimationFrame"
+        }
       },
       {
         "name": "catchen.me",
         "description": "Source code for building this static website",
-        "url": "https://github.com/CatChen/catchen.me",
+        "urls": {
+          "source": "https://github.com/CatChen/catchen.me",
+          "web": "https://catchen.me/"
+        },
         "image": {
           "url": "/images/catchen_me_320_180_1x.png",
           "alt": "catchen.me screenshot"

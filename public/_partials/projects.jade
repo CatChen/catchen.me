@@ -1,8 +1,15 @@
 for link in links
   div(class="my-4")
-    a(href="#{link.url}")
-      h2
-        | #{link.name}
+    div(class="d-md-flex flex-row align-items-end")
+      a(href="#{link.urls.web || link.urls.source}" class="flex-grow-1")
+        h2
+          | #{link.name}
+      if (Object.keys(link.urls).length > 1)
+        div(class="text-muted mb-2")
+          | (
+          a(href="#{link.urls.source}")
+            | #{sourceCode}
+          | )
     if ('image' in link)
       img(
         src="#{link.image.url}"
