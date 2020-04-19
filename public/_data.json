@@ -321,6 +321,22 @@
         "urls": {
           "source": "https://github.com/CatChen/traceurl-web/",
           "web": "https://traceurl.catchen.app/"
+        },
+        "image": {
+          "url": "/images/trace_url_320_180_1x.png",
+          "alt": "catchen.me screenshot"
+        }
+      },
+      {
+        "name": "avocadotoast.live",
+        "description": "Avocado Toast is our technology podcast in Chinese. This is the source code that builds the podcast's static website.",
+        "urls": {
+          "source": "https://github.com/CatChen/avocadotoast.live",
+          "web": "https://avocadotoast.live/"
+        },
+        "image": {
+          "url": "/images/avocado_toast_320_180_1x.png",
+          "alt": "catchen.me screenshot"
         }
       },
       {
