@@ -2,7 +2,7 @@
   "name": "catchen.me",
   "version": "1.0.0",
   "description": "This is the source code that can be compiled into the static site behind catchen.me.",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "harp": "^0.33.0",
