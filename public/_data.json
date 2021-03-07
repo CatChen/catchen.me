@@ -247,7 +247,7 @@
         }
       ]
     },
-    "prerender": "projects",
+    "prerender": "services",
     "priority": 0.8
   },
   "services": {
@@ -309,7 +309,9 @@
           }
         ]
       }
-    ]
+    ],
+    "prerender": "projects",
+    "priority": 0.7
   },
   "projects": {
     "title": "Projects",
