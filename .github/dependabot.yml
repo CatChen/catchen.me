@@ -12,14 +12,9 @@ updates:
     interval: daily
     time: "03:00"
     timezone: US/Pacific
-  open-pull-requests-limit: 10
   reviewers:
   - catchen
   assignees:
   - catchen
-  ignore:
-  - dependency-name: husky
-    versions:
-    - 5.1.0
-  registries:
+    registries:
   - npm-registry-npm-pkg-github-com-catchen
