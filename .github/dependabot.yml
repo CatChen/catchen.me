@@ -16,5 +16,5 @@ updates:
   - catchen
   assignees:
   - catchen
-    registries:
+  registries:
   - npm-registry-npm-pkg-github-com-catchen
