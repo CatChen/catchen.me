@@ -2,22 +2,21 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        submodules: recursive
-    - name: Use Node.js 12
-      uses: actions/setup-node@v2
-      with:
-        node-version: 12
-    - run: yarn install
-    - run: yarn harp compile .
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: yarn install
+      - run: yarn harp compile .
