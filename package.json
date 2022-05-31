@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "autoprefixer": "^9.8.6",
+    "bootstrap": "^5.3.3",
     "harp": "^0.33.0",
     "postcss-cli": "^7.1.2"
   },
@@ -15,8 +16,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "harp compile . && yarn postcss www/css/*.css --use autoprefixer -d www/css/",
-    "start": "harp server .",
+    "copy-js": "cp node_modules/bootstrap/dist/js/bootstrap.min.js public/js",
+    "build": "yarn copy-js && harp compile . && yarn postcss www/css/*.css --use autoprefixer -d www/css/",
+    "start": "yarn copy-js && harp server .",
     "prettier": "prettier --write public/**/*.json",
     "postinstall": "husky install"
   },
