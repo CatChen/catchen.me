@@ -45,10 +45,20 @@
             "year": 2020,
             "month": 2
           },
+          "to": {
+            "year": 2022,
+            "month": 7
+          },
           "company": "Robinhood",
           "roles": [
             {
-              "title": "Web Engineer"
+              "title": "Senior Software Engineer",
+              "projects": [
+                "Improved user first day funding rate (key user growth metric) by rebuilding bank linking and money transferring.",
+                "Reduced million dollars of negative equity per year by introducing user photo ID upload and review.",
+                "Automated trade surveillance and reduced regulatory risk by building data pipeline that extracted order and execution data.",
+                "Greatly improved employee productivity by procuring an internal search solution and integrating it with various internal data sources."
+              ]
             }
           ]
         },
@@ -62,9 +72,9 @@
             {
               "title": "Career Coach",
               "projects": [
-                "Coaching software engineers for career growth through one-on-one",
-                "Preparing computer science students for an upcoming industrial career",
-                "Helping tech workers prepare for job application and  interview"
+                "Coaching software engineers for career growth through one-on-one.",
+                "Preparing computer science students for an upcoming industrial career.",
+                "Helping tech workers prepare for job application and interview."
               ]
             }
           ]
