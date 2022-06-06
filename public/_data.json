@@ -94,9 +94,9 @@
               "title": "Front End Engineer",
               "projects": [
                 "Reduced daily error impacted mobile web user from 38% to 15% by overriding mobile browser resource fetching and fixing a lot of bugs.",
-                "Improved desktop web user experience by measuring, analyzing and optimizing end-to-end performance",
+                "Improved desktop web user experience by measuring, analyzing and optimizing end-to-end performance.",
                 "Gave recommendation on whether the User Growth organization should adopt React Native by shipping a project with React Native and iOS native in parallel.",
-                "User Growth Moonshot Project",
+                "User Growth Moonshot Project.",
                 "Eliminated 90% of bug reports from content moderators and increase their productivity by both technical and incentive means."
               ]
             },
@@ -161,9 +161,9 @@
             {
               "title": "Senior Software Engineer",
               "projects": [
-                "Web Instant Messenger",
-                "Map API iPhone & Android features",
-                "JavaScript Library for Pattern Matching & Event Dispatch"
+                "Developed Baidu Hi (Instant Messenger) web and Silverlight version.",
+                "Added iPhone & Android to Baidu Map API.",
+                "Opensourced JavaScript Library for Pattern Matching & Event Dispatch."
               ]
             },
             {
