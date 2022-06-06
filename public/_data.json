@@ -93,11 +93,11 @@
             {
               "title": "Front End Engineer",
               "projects": [
-                "Mobile Web Front-End Reliability (Logging & Bug Fixing)",
-                "Desktop Web End-to-End Performance (Monitoring, Analysis & Optimization)",
-                "React Native in User Growth",
+                "Reduced daily error impacted mobile web user from 38% to 15% by overriding mobile browser resource fetching and fixing a lot of bugs.",
+                "Improved desktop web user experience by measuring, analyzing and optimizing end-to-end performance",
+                "Gave recommendation on whether the User Growth organization should adopt React Native by shipping a project with React Native and iOS native in parallel.",
                 "User Growth Moonshot Project",
-                "Human Review Platform Reliability & Performance"
+                "Eliminated 90% of bug reports from content moderators and increase their productivity by both technical and incentive means."
               ]
             },
             {
@@ -126,7 +126,7 @@
           "roles": [
             {
               "title": "Front-End Architect",
-              "titleExtra": "managing the Front-End Team"
+              "titleExtra": "managed the Front-End Team by setting team OKRs and mentoring engineers"
             }
           ]
         },
@@ -241,7 +241,7 @@
           "city": "Guangzhou, China",
           "texts": [
             "Major in Network Engineering, Computer Science Department",
-            "Was recommended for admission in 2004"
+            "Was admitted with College Entrance Exam waived in 2004"
           ]
         },
         {
