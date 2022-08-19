@@ -6,7 +6,7 @@
     "title": "Home",
     "introduction": {
       "title": "Introduction",
-      "text": "I am Cat Chen. I'm a programmer, author, speaker and career coach. I worked as engineer and/or manager at Facebook, Wandou Labs, Yahoo and Baidu. I'm an alumnus of HSFZ and SYSU."
+      "text": "I am Cat Chen. I'm a programmer, author, speaker and career coach. I worked as engineer and/or manager at Robinhood, Facebook, Wandou Labs, Yahoo and Baidu. I'm an alumnus of HSFZ and SYSU."
     },
     "contacts": {
       "title": "Contacts",
@@ -67,14 +67,15 @@
             "year": 2018,
             "month": 10
           },
-          "company": "Coaching Business",
+          "company": "Tech Career LLC",
           "roles": [
             {
               "title": "Career Coach",
               "projects": [
                 "Coaching software engineers for career growth through one-on-one.",
                 "Preparing computer science students for an upcoming industrial career.",
-                "Helping tech workers prepare for job application and interview."
+                "Helping tech workers prepare for job application and interview.",
+                "Founder and CEO of the company."
               ]
             }
           ]
