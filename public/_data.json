@@ -30,6 +30,18 @@
       "experiences": [
         {
           "from": {
+            "year": 2022,
+            "month": 8
+          },
+          "company": "Chime",
+          "roles": [
+            {
+              "title": "Staff Mobile Software Engineer"
+            }
+          ]
+        },
+        {
+          "from": {
             "year": 2020,
             "month": 3
           },

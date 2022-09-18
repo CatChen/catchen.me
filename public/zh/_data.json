@@ -24,10 +24,14 @@
       "title": "工作经验",
       "experiences": [
         {
-          "from": {
-            "year": 2020,
-            "month": 3
-          },
+          "company": "Chime",
+          "roles": [
+            {
+              "title": "资深移动软件工程师"
+            }
+          ]
+        },
+        {
           "company": "Sand Hill Angels",
           "roles": [
             {
