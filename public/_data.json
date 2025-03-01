@@ -30,18 +30,6 @@
       "experiences": [
         {
           "from": {
-            "year": 2022,
-            "month": 8
-          },
-          "company": "Chime",
-          "roles": [
-            {
-              "title": "Staff Mobile Software Engineer"
-            }
-          ]
-        },
-        {
-          "from": {
             "year": 2020,
             "month": 3
           },
@@ -49,6 +37,46 @@
           "roles": [
             {
               "title": "Angel Investor"
+            }
+          ]
+        },
+        {
+          "from": {
+            "year": 2018,
+            "month": 10
+          },
+          "company": "Tech Career LLC",
+          "roles": [
+            {
+              "title": "Career Coach",
+              "projects": [
+                "Coaching software engineers for career growth through one-on-one.",
+                "Preparing computer science students for an upcoming industrial career.",
+                "Helping tech workers prepare for job application and interview.",
+                "Founder and CEO of the company."
+              ]
+            }
+          ]
+        },
+        {
+          "from": {
+            "year": 2022,
+            "month": 8
+          },
+          "to": {
+            "year": 2024,
+            "month": 8
+          },
+          "company": "Chime",
+          "roles": [
+            {
+              "title": "Mobile Software Engineer (React Native)",
+              "projects": [
+                "Shipped the auto insurance product internal alpha with server-driven user interface.",
+                "Doubled the number of employees in the app's beta dogfooding by nudging employees with a promotional screen.",
+                "Reduced the complexity and improved the reliability of image and animation rendering by designing a unified assets pipeline.",
+                "Migrated legacy text component usages across hundreds of files with automation."
+              ]
             }
           ]
         },
@@ -70,24 +98,6 @@
                 "Reduced million dollars of negative equity per year by introducing user photo ID upload and review.",
                 "Automated trade surveillance and reduced regulatory risk by building data pipeline that extracted order and execution data.",
                 "Greatly improved employee productivity by procuring an internal search solution and integrating it with various internal data sources."
-              ]
-            }
-          ]
-        },
-        {
-          "from": {
-            "year": 2018,
-            "month": 10
-          },
-          "company": "Tech Career LLC",
-          "roles": [
-            {
-              "title": "Career Coach",
-              "projects": [
-                "Coaching software engineers for career growth through one-on-one.",
-                "Preparing computer science students for an upcoming industrial career.",
-                "Helping tech workers prepare for job application and interview.",
-                "Founder and CEO of the company."
               ]
             }
           ]
