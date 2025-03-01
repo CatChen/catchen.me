@@ -30,7 +30,7 @@ html(lang="#{current.path[0]}")
         button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent")
           span(class="navbar-toggler-icon")
         div(class="collapse navbar-collapse" id="navbarSupportedContent")
-          ul(class="navbar-nav mr-auto")
+          ul(class="navbar-nav me-auto")
             for page in public._data.pages
               li(class="nav-item #{current.source === page ? 'active' : ''}")
                 a(
@@ -88,10 +88,6 @@ html(lang="#{current.path[0]}")
       |   });
       | }
 
-    script(
-      src="/js/jquery-3.4.1.slim.min.js"
-      crossorigin="anonymous"
-    )
     script(
       src="/js/bootstrap.min.js"
       crossorigin="anonymous"

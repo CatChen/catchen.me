@@ -14,8 +14,8 @@ for program in programs
     div
       for link, index in program.links
         if (index === 0)
-          a(class="btn btn-primary mr-1" href="#{link.url}" role="button")
+          a(class="btn btn-primary me-1" href="#{link.url}" role="button")
             | #{link.text}
         else
-          a(class="btn btn-secondary mr-1" href="#{link.url}" role="button")
+          a(class="btn btn-secondary me-1" href="#{link.url}" role="button")
             | #{link.text}
