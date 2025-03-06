@@ -20,12 +20,12 @@ html
     link(rel="icon" href="/favicon.ico")
     link(rel="prerender" href="/")
   body
-    nav(class="navbar navbar-expand-md navbar-light bg-light")
+    nav(class="navbar navbar-expand-md bg-body-tertiary")
       div(class="container")
         button(class="navbar-toggler" type="button" disabled)
           span(class="navbar-toggler-icon")
         div(class="navbar-collapse" id="navbarSupportedContent")
-          ul(class="navbar-nav mr-auto")
+          ul(class="navbar-nav me-auto")
             for page in public._data.pages
               li(class="nav-item")
                 a(

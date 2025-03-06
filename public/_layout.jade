@@ -25,24 +25,24 @@ html(lang="#{current.path[0]}")
       link(rel="prerender" href="/#{current.path[0]}/#{public._data[current.source].prerender}")
 
   body
-    nav(class="navbar navbar-expand-md navbar-light bg-light")
+    nav(class="navbar navbar-expand-md bg-body-tertiary")
       div(class="container")
-        button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent")
+        button(class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent")
           span(class="navbar-toggler-icon")
         div(class="collapse navbar-collapse" id="navbarSupportedContent")
-          ul(class="navbar-nav mr-auto")
+          ul(class="navbar-nav me-auto")
             for page in public._data.pages
-              li(class="nav-item #{current.source === page ? 'active' : ''}")
+              li(class="nav-item")
                 a(
                   href="/#{current.path[0]}/#{page.replace(/^index$/, '')}"
-                  class="nav-link"
+                  class="nav-link #{current.source === page ? 'active' : ''}"
                 ) #{public[current.path[0]]._data[page] && public[current.path[0]]._data[page].title || public._data[page].title}
           ul(class="navbar-nav")
             for data, locale in public._data.locales
-              li(class="nav-item #{current.path[0] === locale ? 'active d-none d-md-block' : ''}")
+              li(class="nav-item #{current.path[0] === locale ? 'd-none d-md-block' : ''}")
                 a(
                   href="/#{locale}/#{current.source.replace(/^index$/, '')}"
-                  class="nav-link"
+                  class="nav-link #{current.path[0] === locale ? 'active' : ''}"
                 ) #{public._data.locales[locale][locale].title}
 
     div(class="container mt-3")
@@ -88,10 +88,6 @@ html(lang="#{current.path[0]}")
       |   });
       | }
 
-    script(
-      src="/js/jquery-3.4.1.slim.min.js"
-      crossorigin="anonymous"
-    )
     script(
       src="/js/bootstrap.min.js"
       crossorigin="anonymous"

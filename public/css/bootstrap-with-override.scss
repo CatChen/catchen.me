@@ -32,8 +32,12 @@ h3 {
   }
 
   body > .navbar {
-    padding-left: unquote("max(env(safe-area-inset-left), 1em)");
-    padding-right: unquote("max(env(safe-area-inset-right), 1em)");
+    padding-left: unquote(
+      "max(env(safe-area-inset-left), var(--bs-navbar-padding-x))"
+    );
+    padding-right: unquote(
+      "max(env(safe-area-inset-right), var(--bs-navbar-padding-x))"
+    );
   }
 
   @include media-breakpoint-up(sm) {
@@ -69,7 +73,7 @@ h3 {
   }
 
   body > .container {
-    padding-left: calc(env(safe-area-inset-left) + 15px);
-    padding-right: calc(env(safe-area-inset-right) + 15px);
+    padding-left: calc(env(safe-area-inset-left) + var(--bs-gutter-x) * 0.5);
+    padding-right: calc(env(safe-area-inset-right) + var(--bs-gutter-x) * 0.5);
   }
 }
