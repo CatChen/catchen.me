@@ -69,7 +69,7 @@ h3 {
   }
 
   body > .container {
-    padding-left: calc(env(safe-area-inset-left) + 15px);
-    padding-right: calc(env(safe-area-inset-right) + 15px);
+    padding-left: calc(env(safe-area-inset-left) + var(--bs-gutter-x) * 0.5);
+    padding-right: calc(env(safe-area-inset-right) + var(--bs-gutter-x) * 0.5);
   }
 }
