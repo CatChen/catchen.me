@@ -18,8 +18,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy-js": "cp -r node_modules/bootstrap/dist/js public/",
-    "build": "yarn copy-js && harp compile . && yarn postcss www/css/*.css --use autoprefixer -d www/css/",
-    "start": "yarn copy-js && harp server .",
+    "build": "yarn copy-js && harp . www && yarn postcss www/css/*.css --use autoprefixer -d www/css/",
+    "start": "yarn copy-js && harp .",
     "prettier": "prettier --write public/**/*.json",
     "prepare": "is-ci || husky"
   },
