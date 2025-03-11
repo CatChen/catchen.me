@@ -10,7 +10,7 @@
     "postcss-cli": "^7.1.2"
   },
   "devDependencies": {
-    "husky": "6",
+    "husky": "9",
     "prettier": "2.8.8",
     "pretty-quick": "^3.3.1"
   },
