@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "husky": "9",
+    "is-ci": "^4.1.0",
     "prettier": "2.8.8",
     "pretty-quick": "^3.3.1"
   },
@@ -20,7 +21,7 @@
     "build": "yarn copy-js && harp compile . && yarn postcss www/css/*.css --use autoprefixer -d www/css/",
     "start": "yarn copy-js && harp server .",
     "prettier": "prettier --write public/**/*.json",
-    "postinstall": "husky install"
+    "prepare": "is-ci || husky"
   },
   "prettier": {},
   "repository": {
