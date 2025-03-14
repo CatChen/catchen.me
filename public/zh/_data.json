@@ -260,8 +260,8 @@
       }
     ]
   },
-  "posts": {
-    "title": "文章",
+  "contents": {
+    "title": "内容",
     "seriesStart": "（系列文章：",
     "seriesEnd": "）",
     "seriesDelimiter": "、",
