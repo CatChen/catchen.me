@@ -413,11 +413,11 @@
         }
       }
     ],
-    "prerender": "posts",
+    "prerender": "contents",
     "priority": 0.5
   },
-  "posts": {
-    "title": "Posts",
+  "contents": {
+    "title": "Contents",
     "seriesStart": " (Series: ",
     "seriesEnd": ")",
     "seriesDelimiter": ", ",
@@ -449,7 +449,7 @@
     },
     "priority": 0.5
   },
-  "pages": ["index", "resume", "services", "projects", "posts"],
+  "pages": ["index", "resume", "services", "projects", "contents"],
   "locales": {
     "en": {
       "404": "Page not found",
