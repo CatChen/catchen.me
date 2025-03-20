@@ -53,23 +53,28 @@ html(lang="#{current.path[0]}")
 
     script
       | window.printResume = function() {
+      |   if (window.resumePDF) {
+      |     window.resumePDF.save();
+      |   }
       |   var script = document.createElement('script');
       |   script.src = '/js/html2pdf.bundle.min.js';
       |   script.onload = function() {
       |     var element = document.getElementById('resume');
       |     if (element) {
-      |       html2pdf(element, {
+      |       window.resumePDF = html2pdf().set({
       |         filename: 'Cat Chen - Resume.pdf',
       |         margin: 1,
       |         pagebreak: {
-      |           mode: 'avoid-all',
+      |           mode: ['css'],
+      |           avoid: '.avoidPageBreakInside',
       |         },
       |         jsPDF: {
       |           unit: 'in',
       |           format: 'letter',
       |           orientation: 'portrait'
       |         },
-      |       });
+      |       }).from(element)
+      |       window.resumePDF.save();
       |     }
       |   };
       |   document.head.appendChild(script);

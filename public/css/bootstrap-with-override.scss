@@ -83,3 +83,9 @@ h3 {
     break-inside: avoid-page;
   }
 }
+
+@media not print {
+  .printOnly {
+    display: none;
+  }
+}

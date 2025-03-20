@@ -31,6 +31,9 @@ mixin dateRangeToLocalString(dateRange)
     else
       | #{dateRange.years.join(', ')}
 
+h1(class="printOnly")
+  | #{name} - #{title}
+
 h2
   | #{workExperience.title}
 div(class="row my-4")
