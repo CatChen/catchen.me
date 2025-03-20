@@ -7,6 +7,7 @@
     "autoprefixer": "^9.8.6",
     "bootstrap": "^5.3.3",
     "harp": "^0.46.1",
+    "html2pdf.js": "^0.10.3",
     "postcss-cli": "^7.1.2"
   },
   "devDependencies": {
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-js": "cp -r node_modules/bootstrap/dist/js public/",
+    "copy-js": "cp -r node_modules/bootstrap/dist/js public/ && cp node_modules/html2pdf.js/dist/* public/js",
     "build": "yarn copy-js && harp . www && yarn postcss www/css/*.css --use autoprefixer -d www/css/",
     "start": "yarn copy-js && harp .",
     "prettier": "prettier --write public/**/*.json",

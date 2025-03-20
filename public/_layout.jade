@@ -45,8 +45,40 @@ html(lang="#{current.path[0]}")
                   class="nav-link #{current.path[0] === locale ? 'active' : ''}"
                 ) #{public._data.locales[locale][locale].title}
 
-    div(class="container mt-3")
+    div(
+      id="#{current.source}"
+      class="container mt-3"
+    )
       != yield
+
+    script
+      | window.printResume = function() {
+      |   if (window.resumePDF) {
+      |     window.resumePDF.save();
+      |   }
+      |   var script = document.createElement('script');
+      |   script.src = '/js/html2pdf.bundle.min.js';
+      |   script.onload = function() {
+      |     var element = document.getElementById('resume');
+      |     if (element) {
+      |       window.resumePDF = html2pdf().set({
+      |         filename: 'Cat Chen - Resume.pdf',
+      |         margin: 1,
+      |         pagebreak: {
+      |           mode: ['css'],
+      |           avoid: '.avoidPageBreakInside',
+      |         },
+      |         jsPDF: {
+      |           unit: 'in',
+      |           format: 'letter',
+      |           orientation: 'portrait'
+      |         },
+      |       }).from(element)
+      |       window.resumePDF.save();
+      |     }
+      |   };
+      |   document.head.appendChild(script);
+      | }
 
     script
       | window.dataLayer = window.dataLayer || [];

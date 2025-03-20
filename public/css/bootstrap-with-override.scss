@@ -77,3 +77,15 @@ h3 {
     padding-right: calc(env(safe-area-inset-right) + var(--bs-gutter-x) * 0.5);
   }
 }
+
+@media print {
+  .avoidPageBreakInside {
+    break-inside: avoid-page;
+  }
+}
+
+@media not print {
+  .printOnly {
+    display: none;
+  }
+}
