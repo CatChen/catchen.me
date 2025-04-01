@@ -25,7 +25,7 @@ html(lang="#{current.path[0]}")
       link(rel="prerender" href="/#{current.path[0]}/#{public._data[current.source].prerender}")
 
   body
-    nav(class="navbar navbar-expand-md bg-body-tertiary")
+    nav(class="navbar navbar-expand-md bg-body-tertiary d-print-none")
       div(class="container")
         button(class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent")
           span(class="navbar-toggler-icon")
@@ -45,7 +45,10 @@ html(lang="#{current.path[0]}")
                   class="nav-link #{current.path[0] === locale ? 'active' : ''}"
                 ) #{public._data.locales[locale][locale].title}
 
-    div(class="container mt-3")
+    div(
+      id="#{current.source}"
+      class="container mt-3"
+    )
       != yield
 
     script
