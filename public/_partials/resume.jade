@@ -31,6 +31,9 @@ mixin dateRangeToLocalString(dateRange)
     else
       | #{dateRange.years.join(', ')}
 
+h1(class="d-none d-print-block")
+  | #{name} - #{title}
+
 h2
   | #{workExperience.title}
 div(class="row my-4")
@@ -41,7 +44,7 @@ div(class="row my-4")
       h3 #{experience.company}
       ul
         for role, index in experience.roles
-          li
+          li(class="avoidPageBreakInside")
             if index === 0
               span(class="fw-bold") #{role.title}
             else
@@ -60,7 +63,7 @@ div(class="row my-4")
   for activity in socialActivities.activities
     div(class="col-md-4")
       mixin dateRangeToLocalString(activity)
-    div(class="col-md-8")
+    div(class="col-md-8 avoidPageBreakInside")
       h3 #{activity.title}
       ul
         for text in activity.texts
@@ -73,7 +76,7 @@ div(class="row my-4 educationBackground")
   for education in educationBackground.educations
     div(class="col-md-4")
       mixin dateRangeToLocalString(education)
-    div(class="col-md-8")
+    div(class="col-md-8 avoidPageBreakInside")
       h3 #{education.school}
       span(class="fst-italic ms-2") #{education.city}
       for text in education.texts
