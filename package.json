@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.4",
     "harp": "^0.46.1",
     "postcss-cli": "^7.1.2"
   },
