@@ -13,7 +13,7 @@
     "husky": "9",
     "is-ci": "^4.1.0",
     "prettier": "3.5.3",
-    "pretty-quick": "^4.1.1"
+    "pretty-quick": "^4.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
