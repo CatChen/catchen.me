@@ -6,7 +6,7 @@
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "bootstrap": "^5.3.7",
-    "harp": "^0.46.1",
+    "harp": "^0.47.0",
     "postcss-cli": "^7.1.2"
   },
   "devDependencies": {

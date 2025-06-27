@@ -632,10 +632,10 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-harp@^0.46.1:
-  version "0.46.1"
-  resolved "https://registry.yarnpkg.com/harp/-/harp-0.46.1.tgz#6b71b7f9e4d6862bb35785935d385e5087aa507e"
-  integrity sha512-xyYt1S28kB8/90INbXdr+2EZgVT00koBGgQ81qfB/pr9kH390siEE7Cexd7/yfMyrIQB8cz66yazttBnqU8DrQ==
+harp@^0.47.0:
+  version "0.47.0"
+  resolved "https://registry.yarnpkg.com/harp/-/harp-0.47.0.tgz#a6e07270278ee7a25483fb3283b77b50b036a7cb"
+  integrity sha512-yoQD1RI0TfQE9xdzmlLg9lHIQsKXkHvSdvAqV71mPuyDY9vBk6PDbP2+cFJuDDtPZuBChLdJOAscYAft8iVgXg==
   dependencies:
     "@colors/colors" "1.5.0"
     async "0.2.9"
