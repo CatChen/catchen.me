@@ -24,14 +24,6 @@
       "title": "工作经验",
       "experiences": [
         {
-          "company": "Sand Hill Angels",
-          "roles": [
-            {
-              "title": "天使投资人"
-            }
-          ]
-        },
-        {
           "company": "Tech Career LLC",
           "roles": [
             {
@@ -42,6 +34,14 @@
                 "帮助科技行业工作者针对求职面试做准备。",
                 "公司创始人及 CEO。"
               ]
+            }
+          ]
+        },
+        {
+          "company": "Sand Hill Angels",
+          "roles": [
+            {
+              "title": "天使投资人"
             }
           ]
         },

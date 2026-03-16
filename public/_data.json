@@ -31,18 +31,6 @@
       "experiences": [
         {
           "from": {
-            "year": 2020,
-            "month": 3
-          },
-          "company": "Sand Hill Angels",
-          "roles": [
-            {
-              "title": "Angel Investor"
-            }
-          ]
-        },
-        {
-          "from": {
             "year": 2018,
             "month": 10
           },
@@ -56,6 +44,22 @@
                 "Helping tech workers prepare for job application and interview.",
                 "Founder and CEO of the company."
               ]
+            }
+          ]
+        },
+        {
+          "from": {
+            "year": 2020,
+            "month": 3
+          },
+          "to": {
+            "year": 2025,
+            "month": 12
+          },
+          "company": "Sand Hill Angels",
+          "roles": [
+            {
+              "title": "Angel Investor"
             }
           ]
         },
