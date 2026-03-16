@@ -20,12 +20,12 @@
   to = "/:locale/projects/"
   status = 301
 [[redirects]]
-  from = "/post/"
-  to = "/posts/"
+  from = "/content/"
+  to = "/contents/"
   status = 301
 [[redirects]]
-  from = "/:locale/post/"
-  to = "/:locale/posts/"
+  from = "/:locale/content/"
+  to = "/:locale/contents/"
   status = 301
 
 # zh locale
@@ -54,8 +54,8 @@
   force = false
   conditions = {Language = ["zh"]}
 [[redirects]]
-  from = "/posts/"
-  to = "/zh/posts/"
+  from = "/contents/"
+  to = "/zh/contents/"
   status = 200
   force = false
   conditions = {Language = ["zh"]}
@@ -86,8 +86,8 @@
   force = false
   conditions = {Language = ["en"]}
 [[redirects]]
-  from = "/posts/"
-  to = "/en/posts/"
+  from = "/contents/"
+  to = "/en/contents/"
   status = 200
   force = false
   conditions = {Language = ["en"]}
@@ -114,10 +114,20 @@
   status = 200
   force = false
 [[redirects]]
-  from = "/posts/"
-  to = "/en/posts/"
+  from = "/contents/"
+  to = "/en/contents/"
   status = 200
   force = false
+
+# v2 legacy path migration
+[[redirects]]
+  from = "/post/"
+  to = "/contents/"
+  status = 301
+[[redirects]]
+  from = "/posts/"
+  to = "/contents/"
+  status = 301
 
 # v1 to v2 page mappings
 [[redirects]]
@@ -131,7 +141,7 @@
   to = "/en/projects"
 [[redirects]]
   from = "/more.en.html"
-  to = "/en/posts"
+  to = "/en/contents"
 [[redirects]]
   from = "/home.zh-CN.html"
   to = "/zh/"
@@ -143,7 +153,7 @@
   to = "/zh/projects"
 [[redirects]]
   from = "/more.zh-CN.html"
-  to = "/zh/posts"
+  to = "/zh/contents"
 [[redirects]]
   from = "/home.zh-HK.html"
   to = "/zh/"
@@ -155,7 +165,7 @@
   to = "/zh/projects"
 [[redirects]]
   from = "/more.zh-HK.html"
-  to = "/zh/posts"
+  to = "/zh/contents"
 
 [[redirects]]
   from = "https://catchen.netlify.com/*"

@@ -5,15 +5,15 @@
   "private": true,
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "bootstrap": "^5.3.3",
-    "harp": "^0.46.1",
+    "bootstrap": "^5.3.8",
+    "harp": "^0.47.2",
     "postcss-cli": "^7.1.2"
   },
   "devDependencies": {
     "husky": "9",
     "is-ci": "^4.1.0",
-    "prettier": "2.8.8",
-    "pretty-quick": "^3.3.1"
+    "prettier": "3.8.1",
+    "pretty-quick": "^4.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
