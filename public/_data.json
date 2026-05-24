@@ -15,7 +15,24 @@
       "email": "Email"
     },
     "links": {
-      "title": "Links"
+      "title": "Links",
+      "items": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/catchen",
+          "text": "Cat Chen"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/catchen",
+          "text": "CatChen"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/catchen",
+          "text": "@catchen"
+        }
+      ]
     },
     "prerender": "resume",
     "priority": 0.6,
