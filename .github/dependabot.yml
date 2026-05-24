@@ -7,7 +7,5 @@ updates:
       interval: daily
       time: "03:00"
       timezone: US/Pacific
-    reviewers:
-      - CatChen
     assignees:
       - CatChen
