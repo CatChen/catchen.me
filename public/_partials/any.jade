@@ -1,42 +1,14 @@
-- function deepCopy(destination, source) {
--   if (!destination) {
--     if (typeof source === 'object') {
--       if (Array.isArray(source)) {
--         destination = [];
--       } else {
--         destination = {};
--       }
--     } else {
--       return source;
--     }
--   }
--   if (typeof source === 'object') {
--     if (Array.isArray(source)) {
--       for (var i = 0; i < source.length; i++) {
--         if (source[i] !== undefined) {
--           destination[i] = deepCopy(destination[i], source[i]);
--         }
--       }
--     } else {
--       for (var key in source) {
--         if (Object.prototype.hasOwnProperty.call(source, key)) {
--           destination[key] = deepCopy(destination[key], source[key]);
--         }
--       }
--     }
--     return destination;
--   } else {
--     return source;
--   }
-- }
+include ../_helpers/deepCopy.jade
 
-- var baseData = public._data[current.source];
-- var localizedData = public[current.path[0]]._data[current.source];
-- var data = {};
-- deepCopy(data, baseData);
-- deepCopy(data, localizedData);
+- var currentLocale = current.path[0];
+- var localeData = public._data.locales[currentLocale];
+- var basePageData = public._data[current.source] || {};
+- var localizedPageData = public[currentLocale]._data[current.source] || {};
+- var pageData = {};
+- deepCopy(pageData, basePageData);
+- deepCopy(pageData, localizedPageData);
 
-!= partial(current.source, data)
+!= partial(current.source, pageData)
 != partial('debug', { data: public })
-!= partial('debug', { data })
+!= partial('debug', { data: pageData })
 != partial('debug', { data: current })

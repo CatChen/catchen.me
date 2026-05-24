@@ -1,28 +1,40 @@
+include _helpers/deepCopy.jade
+
+- var currentLocale = current.path[0];
+- var localeData = public._data.locales[currentLocale];
+- var basePageData = public._data[current.source] || {};
+- var localizedPageData = public[currentLocale]._data[current.source] || {};
+- var pageData = {};
+- deepCopy(pageData, basePageData);
+- deepCopy(pageData, localizedPageData);
+- var pagePath = current.source.replace(/^index$/, '');
+- var shortUrl = 'https://catchen.me/' + pagePath;
+
 doctype
-html(lang="#{current.path[0]}")
+html(lang="#{currentLocale}")
   head
     meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
     meta(name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no,viewport-fit=cover")
     meta(property="og:type" content="profile")
-    meta(property="og:title" content="#{public._data.locales[current.path[0]].name + public._data.locales[current.path[0]].possessiveCase + (public[current.path[0]]._data[current.source] && public[current.path[0]]._data[current.source].title || public._data[current.source].title)}")
+    meta(property="og:title" content="#{localeData.name + localeData.possessiveCase + pageData.title}")
     meta(property="og:description" content="Cat Chen's personal website. You can find Cat's resume, projects and contents here.")
-    meta(property="og:url" content="#{'https://catchen.me/' + current.source.replace(/^index$/, '')}")
+    meta(property="og:url" content="#{shortUrl}")
     meta(property="og:image" content="https://catchen.me/images/profile_picture_360_360_1x.jpg")
     meta(property="fb:profile_id" content="504867629")
     meta(property="fb:pages" content="319695031499949")
-    title #{(public[current.path[0]]._data[current.source] && public[current.path[0]]._data[current.source].title || public._data[current.source].title) + ' - ' + public._data.locales[current.path[0]].name}
+    title #{pageData.title + ' - ' + localeData.name}
     link(
       rel="stylesheet"
       href="/css/bootstrap-with-override.css"
       crossorigin="anonymous"
     )
     link(rel="icon" href="/favicon.ico")
-    link(rel="canonical" href="#{'https://catchen.me/' + current.path[0] + '/' + current.source.replace(/^index$/, '')}")
-    link(rel="alternate" hreflang="x-default" href="https://catchen.me/#{current.source.replace(/^index$/, '')}")
+    link(rel="canonical" href="#{'https://catchen.me/' + currentLocale + '/' + pagePath}")
+    link(rel="alternate" hreflang="x-default" href="https://catchen.me/#{pagePath}")
     for data, locale in public._data.locales
-      link(rel="alternate" hreflang="#{locale}" href="https://catchen.me/#{locale}/#{current.source.replace(/^index$/, '')}")
+      link(rel="alternate" hreflang="#{locale}" href="https://catchen.me/#{locale}/#{pagePath}")
     if ('prerender' in public._data[current.source])
-      link(rel="prerender" href="/#{current.path[0]}/#{public._data[current.source].prerender}")
+      link(rel="prerender" href="/#{currentLocale}/#{public._data[current.source].prerender}")
 
   body
     nav(class="navbar navbar-expand-md bg-body-tertiary d-print-none")
@@ -32,17 +44,22 @@ html(lang="#{current.path[0]}")
         div(class="collapse navbar-collapse" id="navbarSupportedContent")
           ul(class="navbar-nav me-auto")
             for page in public._data.pages
+              - navBasePageData = public._data[page] || {};
+              - navLocalizedPageData = public[currentLocale]._data[page] || {};
+              - var navPageData = {};
+              - deepCopy(navPageData, navBasePageData);
+              - deepCopy(navPageData, navLocalizedPageData);
               li(class="nav-item")
                 a(
-                  href="/#{current.path[0]}/#{page.replace(/^index$/, '')}"
+                  href="/#{currentLocale}/#{page.replace(/^index$/, '')}"
                   class="nav-link #{current.source === page ? 'active' : ''}"
-                ) #{public[current.path[0]]._data[page] && public[current.path[0]]._data[page].title || public._data[page].title}
+                ) #{navPageData.title}
           ul(class="navbar-nav")
             for data, locale in public._data.locales
-              li(class="nav-item #{current.path[0] === locale ? 'd-none d-md-block' : ''}")
+              li(class="nav-item #{currentLocale === locale ? 'd-none d-md-block' : ''}")
                 a(
-                  href="/#{locale}/#{current.source.replace(/^index$/, '')}"
-                  class="nav-link #{current.path[0] === locale ? 'active' : ''}"
+                  href="/#{locale}/#{pagePath}"
+                  class="nav-link #{currentLocale === locale ? 'active' : ''}"
                 ) #{public._data.locales[locale][locale].title}
 
     div(
@@ -61,7 +78,7 @@ html(lang="#{current.path[0]}")
       |     'dimension2': 'device_pixel_ratio',
       |     'dimension3': 'page',
       |   },
-      |   language: '#{current.path[0]}',
+      |   language: '#{currentLocale}',
       |   device_pixel_ratio: window.devicePixelRatio,
       |   page: '#{current.source}',
       | });
@@ -110,7 +127,7 @@ html(lang="#{current.path[0]}")
       | fbq('init', '441573105970839');
       | fbq('track', 'PageView');
       | fbq('track', 'ViewContent', {
-      |   content_ids: '#{'https://catchen.me/' + current.source.replace(/^index$/, '')}',
+      |   content_ids: '#{shortUrl}',
       |   content_name: '#{current.source}'
       | });
     noscript
