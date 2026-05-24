@@ -30,12 +30,7 @@ div(class="row")
         a(href="mailto:catchen@catchen.me") catchen@catchen.me
     h2 #{links.title}
     div(class="row mb-3")
-      div(class="col-lg-3 col-sm-4 col-5") GitHub
-      div(class="col-lg-9 col-sm-8 col-7 fw-bold")
-        a(href="https://github.com/catchen") catchen
-      div(class="col-lg-3 col-sm-4 col-5") Patreon
-      div(class="col-lg-9 col-sm-8 col-7 fw-bold")
-        a(href="https://www.patreon.com/catchen") catchen
-      div(class="col-lg-3 col-sm-4 col-5") Twitter
-      div(class="col-lg-9 col-sm-8 col-7 fw-bold")
-        a(href="https://twitter.com/catchen") @catchen
+      for link in links.items
+        div(class="col-lg-3 col-sm-4 col-5") #{link.name}
+        div(class="col-lg-9 col-sm-8 col-7 fw-bold")
+          a(href="#{link.url}") #{link.text}
