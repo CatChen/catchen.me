@@ -6,7 +6,7 @@ This is the source code that can be compiled into the static site behind [catche
 
 To compile the source code into static site pages, we need to use [Harp](https://github.com/sintaxi/harp).
 
-Node.js 22 is required. Use [nvm](https://github.com/nvm-sh/nvm) to switch to the correct version:
+Node.js 24 is required. Use [nvm](https://github.com/nvm-sh/nvm) to switch to the correct version:
 
 ```bash
 nvm use
