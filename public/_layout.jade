@@ -35,6 +35,8 @@ html(lang="#{currentLocale}")
       link(rel="alternate" hreflang="#{locale}" href="https://catchen.me/#{locale}/#{pagePath}")
     if ('prerender' in public._data[current.source])
       link(rel="prerender" href="/#{currentLocale}/#{public._data[current.source].prerender}")
+    if current.source === 'index'
+      != partial('_helpers/structuredData')
 
   body
     nav(class="navbar navbar-expand-md bg-body-tertiary d-print-none")

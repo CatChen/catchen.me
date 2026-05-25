@@ -1,0 +1,32 @@
+- var personId = 'https://catchen.me/#catchen';
+- var personData = {};
+- personData['@type'] = 'Person';
+- personData['@id'] = personId;
+- personData.name = 'Cat Chen';
+- personData.alternateName = ['catchen', 'CatChen', '陈广琛'];
+- personData.url = 'https://catchen.me/';
+- personData.image = 'https://catchen.me/images/profile_picture_360_360_1x.jpg';
+- personData.jobTitle = 'Software Engineer, Career Coach, Angel Investor, Writer and Speaker';
+- personData.description = "Cat Chen's personal website. You can find Cat's resume, projects and contents here.";
+- personData.sameAs = [];
+- personData.sameAs.push('https://www.linkedin.com/in/catchen');
+- personData.sameAs.push('https://github.com/catchen');
+- personData.sameAs.push('https://twitter.com/catchen');
+- personData.sameAs.push('https://www.patreon.com/catchen');
+- personData.sameAs.push('https://english.catchen.me/');
+- personData.sameAs.push('https://chinese.catchen.me/');
+- personData.sameAs.push('https://cantonese.catchen.me/');
+- personData.sameAs.push('https://catchen.medium.com/');
+- personData.sameAs.push('https://dev.to/catchen');
+- var websiteData = {};
+- websiteData['@type'] = 'WebSite';
+- websiteData['@id'] = 'https://catchen.me/#website';
+- websiteData.url = 'https://catchen.me/';
+- websiteData.name = 'Cat Chen';
+- websiteData.inLanguage = ['en', 'zh'];
+- websiteData.publisher = { '@id': personId };
+- var structuredData = {};
+- structuredData['@context'] = 'https://schema.org';
+- structuredData['@graph'] = [personData, websiteData];
+script(type="application/ld+json") !{JSON.stringify(structuredData)}
+!= partial('_helpers/debug', { data: structuredData })
