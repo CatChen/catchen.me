@@ -6,7 +6,7 @@
     "title": "Home",
     "introduction": {
       "title": "Introduction",
-      "text": "I am Cat Chen. I'm a programmer, author, speaker and career coach. I worked as engineer and/or manager at Chime, Robinhood, Facebook, Wandou Labs, Yahoo and Baidu. I'm an alumnus of HSFZ and SYSU."
+      "text": "I am Cat Chen, also known online as catchen. I'm a programmer, author, speaker and career coach. I worked as engineer and/or manager at Chime, Robinhood, Facebook, Wandou Labs, Yahoo and Baidu. I'm an alumnus of HSFZ and SYSU."
     },
     "contacts": {
       "title": "Contacts",
@@ -31,6 +31,11 @@
           "name": "Twitter",
           "url": "https://twitter.com/catchen",
           "text": "@catchen"
+        },
+        {
+          "name": "Patreon",
+          "url": "https://www.patreon.com/catchen",
+          "text": "Cat Chen"
         }
       ]
     },
@@ -466,6 +471,27 @@
         {
           "name": "Avocado Toast (Chinese technology trend review)",
           "url": "https://avocadotoast.live/"
+        }
+      ]
+    },
+    "profiles": {
+      "title": "Profiles",
+      "links": [
+        {
+          "name": "Medium",
+          "url": "https://catchen.medium.com/"
+        },
+        {
+          "name": "DEV",
+          "url": "https://dev.to/catchen"
+        },
+        {
+          "name": "SlideShare",
+          "url": "https://es.slideshare.net/CatChen"
+        },
+        {
+          "name": "Taro",
+          "url": "https://www.jointaro.com/lesson/BL3g4lluJkpzUdvIe9YH/case-study-building-xfn-alignment-across-multiple-orgs-w-staff-engineer-cat-chen/"
         }
       ]
     },
