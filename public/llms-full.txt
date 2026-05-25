@@ -35,8 +35,19 @@ Public professional roles represented on the site include:
 
 Cat Chen provides career coaching for software engineers, computer science students, and tech workers preparing for interviews, promotion, or career planning.
 
-- Coaching inquiries: coach@catchen.me
-- Patreon enrollment: https://www.patreon.com/catchen
+- Coaching inquiries: [coach@catchen.me](mailto:coach@catchen.me)
+- Patreon enrollment: [Patreon](https://www.patreon.com/catchen)
+
+## Public Writing and Media
+
+- [English blog](https://english.catchen.me/)
+- [Chinese blog](https://chinese.catchen.me/)
+- [Cantonese blog](https://cantonese.catchen.me/)
+- [Avocado Toast / 牛油果烤面包](https://avocadotoast.live/), Chinese technology podcast
+- [Medium](https://catchen.medium.com/)
+- [DEV](https://dev.to/catchen)
+- [SlideShare](https://es.slideshare.net/CatChen)
+- [Taro profile/interview](https://www.jointaro.com/lesson/BL3g4lluJkpzUdvIe9YH/case-study-building-xfn-alignment-across-multiple-orgs-w-staff-engineer-cat-chen/)
 
 ## External Profiles
 
