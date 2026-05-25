@@ -18,6 +18,13 @@
 - personData.sameAs.push('https://cantonese.catchen.me/');
 - personData.sameAs.push('https://catchen.medium.com/');
 - personData.sameAs.push('https://dev.to/catchen');
+- var profilePageData = {};
+- profilePageData['@type'] = 'ProfilePage';
+- profilePageData['@id'] = 'https://catchen.me/#profile';
+- profilePageData.url = 'https://catchen.me/';
+- profilePageData.name = 'Cat Chen';
+- profilePageData.description = "Cat Chen's personal website. You can find Cat's resume, projects and contents here.";
+- profilePageData.mainEntity = { '@id': personId };
 - var websiteData = {};
 - websiteData['@type'] = 'WebSite';
 - websiteData['@id'] = 'https://catchen.me/#website';
@@ -27,6 +34,6 @@
 - websiteData.publisher = { '@id': personId };
 - var structuredData = {};
 - structuredData['@context'] = 'https://schema.org';
-- structuredData['@graph'] = [personData, websiteData];
+- structuredData['@graph'] = [personData, profilePageData, websiteData];
 script(type="application/ld+json") !{JSON.stringify(structuredData)}
-!= partial('_helpers/debug', { data: structuredData })
+!= partial('debug', { data: structuredData })
