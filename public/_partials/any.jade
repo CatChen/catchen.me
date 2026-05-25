@@ -9,6 +9,6 @@ include ../_helpers/deepCopy.jade
 - deepCopy(pageData, localizedPageData);
 
 != partial(current.source, pageData)
-!= partial('debug', { data: public })
-!= partial('debug', { data: pageData })
-!= partial('debug', { data: current })
+!= partial('../_helpers/debug', { data: public })
+!= partial('../_helpers/debug', { data: pageData })
+!= partial('../_helpers/debug', { data: current })
