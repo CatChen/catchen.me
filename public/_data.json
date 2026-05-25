@@ -4,8 +4,8 @@
   },
   "index": {
     "title": "Home",
+    "heading": "Cat Chen (aka catchen)",
     "introduction": {
-      "title": "Introduction",
       "text": "I am Cat Chen, also known online as catchen. I'm a programmer, author, speaker and career coach. I worked as engineer and/or manager at Chime, Robinhood, Facebook, Wandou Labs, Yahoo and Baidu. I'm an alumnus of HSFZ and SYSU."
     },
     "contacts": {
@@ -523,6 +523,12 @@
     }
   },
   "sitemap.xml": {
+    "layout": false
+  },
+  "llms.txt": {
+    "layout": false
+  },
+  "llms-full.txt": {
     "layout": false
   }
 }
