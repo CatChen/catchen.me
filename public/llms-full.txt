@@ -6,17 +6,17 @@ This site is a personal and professional homepage. It is not a SaaS product, pub
 
 ## Main Pages
 
-- Homepage: https://catchen.me/
-- English homepage: https://catchen.me/en/
-- Chinese homepage: https://catchen.me/zh/
-- Resume: https://catchen.me/en/resume
-- Resume (Chinese): https://catchen.me/zh/resume
-- Services: https://catchen.me/en/services
-- Services (Chinese): https://catchen.me/zh/services
-- Projects: https://catchen.me/en/projects
-- Projects (Chinese): https://catchen.me/zh/projects
-- Contents: https://catchen.me/en/contents
-- Contents (Chinese): https://catchen.me/zh/contents
+- [Homepage](https://catchen.me/)
+- [English homepage](https://catchen.me/en/)
+- [Chinese homepage](https://catchen.me/zh/)
+- [Resume](https://catchen.me/en/resume)
+- [Resume (Chinese)](https://catchen.me/zh/resume)
+- [Services](https://catchen.me/en/services)
+- [Services (Chinese)](https://catchen.me/zh/services)
+- [Projects](https://catchen.me/en/projects)
+- [Projects (Chinese)](https://catchen.me/zh/projects)
+- [Contents](https://catchen.me/en/contents)
+- [Contents (Chinese)](https://catchen.me/zh/contents)
 
 ## Identity
 
@@ -35,17 +35,15 @@ Public professional roles represented on the site include:
 
 Cat Chen provides career coaching for software engineers, computer science students, and tech workers preparing for interviews, promotion, or career planning.
 
-- Services page: https://catchen.me/en/services
-- Services page (Chinese): https://catchen.me/zh/services
 - Coaching inquiries: coach@catchen.me
 - Patreon enrollment: https://www.patreon.com/catchen
 
 ## External Profiles
 
-- LinkedIn: https://www.linkedin.com/in/catchen
-- GitHub: https://github.com/catchen
-- Twitter: https://twitter.com/catchen
-- Patreon: https://www.patreon.com/catchen
+- [LinkedIn](https://www.linkedin.com/in/catchen)
+- [GitHub](https://github.com/catchen)
+- [Twitter](https://twitter.com/catchen)
+- [Patreon](https://www.patreon.com/catchen)
 
 ## Agent Guidance
 
