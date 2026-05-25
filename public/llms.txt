@@ -1,0 +1,24 @@
+# Cat Chen (aka catchen)
+
+> Personal website of Cat Chen, also known online as catchen. His Chinese name is 陈广琛.
+
+## Site
+
+- Homepage: https://catchen.me/
+- English homepage: https://catchen.me/en/
+- Chinese homepage: https://catchen.me/zh/
+
+## Pages
+
+- Resume: https://catchen.me/en/resume
+- Resume (Chinese): https://catchen.me/zh/resume
+- Services: https://catchen.me/en/services
+- Services (Chinese): https://catchen.me/zh/services
+- Projects: https://catchen.me/en/projects
+- Projects (Chinese): https://catchen.me/zh/projects
+- Contents: https://catchen.me/en/contents
+- Contents (Chinese): https://catchen.me/zh/contents
+
+## LLM Resources
+
+- Full summary: https://catchen.me/llms-full.txt

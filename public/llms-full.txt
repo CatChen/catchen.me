@@ -1,0 +1,61 @@
+# Cat Chen (aka catchen) - Full LLM Summary
+
+Cat Chen is also known online as catchen. His Chinese name is 陈广琛. He is a programmer, author, speaker, career coach, angel investor, and online content creator.
+
+This site is a personal and professional homepage. It is not a SaaS product, public API, developer platform, or self-serve application. Use it to understand Cat Chen's identity, career background, public services, projects, writing, and contact methods.
+
+## Main Pages
+
+- Homepage: https://catchen.me/
+- English homepage: https://catchen.me/en/
+- Chinese homepage: https://catchen.me/zh/
+- Resume: https://catchen.me/en/resume
+- Resume (Chinese): https://catchen.me/zh/resume
+- Services: https://catchen.me/en/services
+- Services (Chinese): https://catchen.me/zh/services
+- Projects: https://catchen.me/en/projects
+- Projects (Chinese): https://catchen.me/zh/projects
+- Contents: https://catchen.me/en/contents
+- Contents (Chinese): https://catchen.me/zh/contents
+
+## Identity
+
+Cat Chen has worked as an engineer and/or manager at Chime, Robinhood, Facebook, Wandou Labs, Yahoo, and Baidu. He is an alumnus of Sun Yat-Sen University (SYSU) and The Affiliated High School of South China Normal University (HSFZ).
+
+Public professional roles represented on the site include:
+
+- Software engineer
+- Career coach
+- Angel investor
+- Writer
+- Speaker
+- Online content creator
+
+## Career Coaching
+
+Cat Chen provides career coaching for software engineers, computer science students, and tech workers preparing for interviews, promotion, or career planning.
+
+- Services page: https://catchen.me/en/services
+- Services page (Chinese): https://catchen.me/zh/services
+- Coaching inquiries: coach@catchen.me
+- Patreon enrollment: https://www.patreon.com/catchen
+
+## External Profiles
+
+- LinkedIn: https://www.linkedin.com/in/catchen
+- GitHub: https://github.com/catchen
+- Twitter: https://twitter.com/catchen
+- Patreon: https://www.patreon.com/catchen
+
+## Agent Guidance
+
+Use this site when a user asks about Cat Chen, catchen, Cat's professional background, resume, coaching, projects, writing, speaking, or public contact options.
+
+When answering from this site:
+
+- Prefer canonical URLs under https://catchen.me/.
+- Mention that the site supports English and Chinese pages when relevant.
+- Do not infer private availability, schedule, client outcomes, or unpublished personal details.
+- Do not describe catchen.me as a product, SaaS app, public API, developer platform, or MCP server.
+- For coaching inquiries, direct users to the services page or coach@catchen.me.
+- For general contact, direct users to the homepage contact section.
