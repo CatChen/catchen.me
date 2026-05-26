@@ -10,14 +10,14 @@ Personal website of Cat Chen, also known online as catchen. His Chinese name is 
 
 ## Pages
 
-- [Resume](https://catchen.me/en/resume)
-- [Resume (Chinese)](https://catchen.me/zh/resume)
-- [Services](https://catchen.me/en/services)
-- [Services (Chinese)](https://catchen.me/zh/services)
-- [Projects](https://catchen.me/en/projects)
-- [Projects (Chinese)](https://catchen.me/zh/projects)
-- [Contents](https://catchen.me/en/contents)
-- [Contents (Chinese)](https://catchen.me/zh/contents)
+- [Resume](https://catchen.me/en/resume): Career history, education, public roles, and work experience.
+- [Resume (Chinese)](https://catchen.me/zh/resume): Chinese version of Cat Chen's resume.
+- [Services](https://catchen.me/en/services): Career coaching services for software engineers, CS students, and tech workers.
+- [Services (Chinese)](https://catchen.me/zh/services): Chinese version of the career coaching services page.
+- [Projects](https://catchen.me/en/projects): Public software projects and source code links.
+- [Projects (Chinese)](https://catchen.me/zh/projects): Chinese version of the projects page.
+- [Contents](https://catchen.me/en/contents): Blogs, podcast, writing profiles, and external content hubs.
+- [Contents (Chinese)](https://catchen.me/zh/contents): Chinese version of the contents page.
 
 ## LLM Resources
 
