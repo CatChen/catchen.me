@@ -75,12 +75,7 @@ html(lang="#{currentLocale}")
       | window.dataLayer = window.dataLayer || [];
       | function gtag(){dataLayer.push(arguments);}
       | gtag('js', new Date());
-      | gtag('config', 'UA-347601-6', {
-      |   custom_map: {
-      |     'dimension1': 'language',
-      |     'dimension2': 'device_pixel_ratio',
-      |     'dimension3': 'page',
-      |   },
+      | gtag('config', 'G-QTL9JVT7L8', {
       |   language: '#{currentLocale}',
       |   device_pixel_ratio: window.devicePixelRatio,
       |   page: '#{current.source}',
@@ -110,10 +105,21 @@ html(lang="#{currentLocale}")
       |     'fatal': false,
       |   });
       | }
+      | function loadGoogleAnalytics() {
+      |   var script = document.createElement('script');
+      |   script.async = true;
+      |   script.src = 'https://www.googletagmanager.com/gtag/js?id=G-QTL9JVT7L8';
+      |   document.head.appendChild(script);
+      | }
+      | window.addEventListener('load', function() {
+      |   if (typeof requestIdleCallback === 'function') {
+      |     requestIdleCallback(loadGoogleAnalytics, { timeout: 2000 });
+      |   } else {
+      |     setTimeout(loadGoogleAnalytics, 0);
+      |   }
+      | });
 
     script(
       src="/js/bootstrap.min.js"
       crossorigin="anonymous"
     )
-
-    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-347601-6")
