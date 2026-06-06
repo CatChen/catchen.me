@@ -3,15 +3,36 @@ div(class="row")
     picture
       source(
         media="(max-width: 767.98px)"
-        srcset="/images/profile_picture_360_240_3x.jpg 1080w, /images/profile_picture_360_240_2x.jpg 720w, /images/profile_picture_360_240_1x.jpg 360w"
+        type="image/avif"
+        srcset="/images/profile_picture_landscape_1080.avif 1080w, /images/profile_picture_landscape_800.avif 800w, /images/profile_picture_landscape_400.avif 400w"
         sizes="calc(100vw - 30px)"
+        width="400"
+        height="267"
+      )
+      source(
+        media="(max-width: 767.98px)"
+        type="image/jpeg"
+        srcset="/images/profile_picture_landscape_1080.jpg 1080w, /images/profile_picture_landscape_800.jpg 800w, /images/profile_picture_landscape_400.jpg 400w"
+        sizes="calc(100vw - 30px)"
+        width="400"
+        height="267"
+      )
+      source(
+        type="image/avif"
+        srcset="/images/profile_picture_square_1080.avif 1080w, /images/profile_picture_square_720.avif 720w, /images/profile_picture_square_360.avif 360w"
+        sizes="(min-width: 1200px) 350px, (min-width: 992px) 290px, (min-width: 768px) 210px, calc(100vw - 30px)"
+        width="360"
+        height="360"
       )
       img(
-        src="/images/profile_picture_360_360_1x.jpg"
-        srcset="/images/profile_picture_360_360_3x.jpg 1080w, /images/profile_picture_360_360_2x.jpg 720w, /images/profile_picture_360_360_1x.jpg 360w"
+        src="/images/profile_picture_square_360.jpg"
+        srcset="/images/profile_picture_square_1080.jpg 1080w, /images/profile_picture_square_720.jpg 720w, /images/profile_picture_square_360.jpg 360w"
         sizes="(min-width: 1200px) 350px, (min-width: 992px) 290px, (min-width: 768px) 210px, calc(100vw - 30px)"
+        width="360"
+        height="360"
+        fetchpriority="high"
         class="img-fluid"
-        alt="profile picture"
+        alt="Cat Chen"
       )
   div(class="col-md-8")
     h1 #{heading}
