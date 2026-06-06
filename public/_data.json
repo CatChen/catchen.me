@@ -503,6 +503,7 @@
       "404": "Page not found",
       "name": "Cat Chen (aka catchen)",
       "language": "Language",
+      "toggleNavigation": "Toggle navigation",
       "en": {
         "title": "English"
       },
@@ -514,6 +515,7 @@
       "404": "页面未找到",
       "name": "陈广琛（Cat Chen / catchen）",
       "language": "语言",
+      "toggleNavigation": "切换导航菜单",
       "en": {
         "title": "英文"
       },
