@@ -14,7 +14,7 @@ doctype
 html(lang="#{currentLocale}")
   head
     meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
-    meta(name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no,viewport-fit=cover")
+    meta(name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover")
     meta(name="description" content="Personal website of Cat Chen (aka catchen). Find Cat's resume, projects, services, and writing here.")
     meta(property="og:type" content="profile")
     meta(property="og:title" content="#{localeData.name + ' - ' + pageData.title}")
@@ -42,7 +42,15 @@ html(lang="#{currentLocale}")
   body
     nav(class="navbar navbar-expand-md bg-body-tertiary d-print-none")
       div(class="container")
-        button(class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent")
+        button(
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="#{localeData.toggleNavigation}"
+        )
           span(class="navbar-toggler-icon")
         div(class="collapse navbar-collapse" id="navbarSupportedContent")
           ul(class="navbar-nav me-auto")
