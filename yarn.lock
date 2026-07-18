@@ -331,13 +331,6 @@ bootstrap@^5.3.8:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.8.tgz#6401a10057a22752d21f4e19055508980656aeed"
   integrity sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==
 
-boxt@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/boxt/-/boxt-1.1.2.tgz#768b4830a5957b372b1c4b5b5a41b9166ee1a68f"
-  integrity sha512-YvBJK+TsjrUNAjJliqEKiGdbKlPhr9I8/FDtLsZvhmVWp+NmHBWKMkpmDNkqYpptEA2XXjYVcs30YGj0/bKWQg==
-  dependencies:
-    strip-ansi "^6.0.1"
-
 braces@^3.0.3, braces@~3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.3.tgz#490332f40919452272d55a8480adc0c441358789"
@@ -731,15 +724,14 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-harp@^0.50.0:
-  version "0.50.0"
-  resolved "https://registry.yarnpkg.com/harp/-/harp-0.50.0.tgz#57f255cb782252d2435db5859b8000e94160cd23"
-  integrity sha512-hslOfQFod25zyMLmDkBqFGmEIMHPTWSWHtl1/LOCM/fotkwwHJ28H04RLOaJaJwFTHF0LnSsVR2HTBqCkuk1hQ==
+harp@^0.50.1:
+  version "0.50.1"
+  resolved "https://registry.yarnpkg.com/harp/-/harp-0.50.1.tgz#1a06f53019e9c555133be7ed9f7485441b489906"
+  integrity sha512-n4enJAyYtgoxJxrO51S5l6dvH83T5mAwaeVgVlyr+jR3NHo95ogFkfZTxy7DJVNPaqE4nCVCksH2gok+OK2PYQ==
   dependencies:
     "@colors/colors" "1.5.0"
     async "3.2.6"
     basic-auth "2.0.1"
-    boxt "1.1.2"
     connect "3.7.0"
     envy-json "0.2.1"
     fs-extra "10.1.0"
