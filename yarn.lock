@@ -734,10 +734,10 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-harp@^0.50.1:
-  version "0.50.1"
-  resolved "https://registry.yarnpkg.com/harp/-/harp-0.50.1.tgz#1a06f53019e9c555133be7ed9f7485441b489906"
-  integrity sha512-n4enJAyYtgoxJxrO51S5l6dvH83T5mAwaeVgVlyr+jR3NHo95ogFkfZTxy7DJVNPaqE4nCVCksH2gok+OK2PYQ==
+harp@^0.52.0:
+  version "0.52.0"
+  resolved "https://registry.yarnpkg.com/harp/-/harp-0.52.0.tgz#21dafcb0b483b79d63eaa6be6001080d32d8ed10"
+  integrity sha512-O4lFY9AATGbGT0NzEpUK7rKdp2XzTm0jsrG2FNwiv9RrsdZN1numQ7dqAZlJF4Qynj6VW4wI4ggq6SHSWCcfzg==
   dependencies:
     "@colors/colors" "1.5.0"
     async "3.2.6"
@@ -752,7 +752,7 @@ harp@^0.50.1:
     parseurl "1.3.3"
     pause "0.1.0"
     send "1.2.1"
-    terraform "1.27.0"
+    terraform "1.28.0"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -1328,10 +1328,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-terraform@1.27.0:
-  version "1.27.0"
-  resolved "https://registry.yarnpkg.com/terraform/-/terraform-1.27.0.tgz#888cfd5f98fe00763c893e22f754456d638f4b1b"
-  integrity sha512-F+3hehE/tdH+NJz5gjLFGSv/n5sVI1Dd9MCWc9ZBOQjUX9jfM3LxjX0pkRq2GD0RCcl/kdOmLoFl5lcBibWy9Q==
+terraform@1.28.0:
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/terraform/-/terraform-1.28.0.tgz#7df18fc69bf78b29d4e673bd2aa3a7def5f6e256"
+  integrity sha512-wTedTpcAeZIFdTnD2AfEOyLh4yZoadTqd80WM+8DGi6JfQobBOu4U92LFytiD8tGsbwH/OsFC+cYm2JUMqbZBg==
   dependencies:
     ejs "6.0.1"
     esbuild "0.28.1"
